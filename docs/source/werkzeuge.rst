@@ -74,7 +74,7 @@ Python-Shell
 ^^^^^^^^^^^^
 
 Die Python-Shell ist, wie Du vielleicht schon erkannt hast, ein :ref:`Kommandozeilenprogramm <cmd-line>`
-mit dem inaktiv mit Python gearbeitet werden kann.
+mit dem interaktiv mit Python gearbeitet werden kann.
 
 Das Erkennungszeichen ist der Prompt mit den drei "Größer Zeichen" **>>>**.
 
@@ -91,19 +91,18 @@ Programmieren
 ^^^^^^^^^^^^^
 
 Zum Programmieren starten wir als erstes den :ref:`Editor<code-editor>`.
-Dazu rufen wir im Menu unter *File* den Unterpunkt *New File* aus
-und erhalten dann ein neues Fenster, das Editorfenster, und können dann dort unsere Programmanweisungen reintippen.
+Dazu rufen wir im Menu unter *File* den Unterpunkt *New File* auf und erhalten
+dann ein neues Fenster, - das Editorfenster, in das wir unsere Programmanweisungen schreiben können .
 
 .. figure:: pics/idle_02.png
     :align: left
     :figwidth: 100%
 
-Im Kopfteil des Fensters steht noch „Untitled*“, da der Inhalt
-des Editorfensters noch nicht in einer Datei gespeichert wurde.
+Im Kopfteil des Fensters steht noch „Untitled*“, da der Inhalt des Editorfensters noch nicht in einer Datei gespeichert wurde.
 Nachdem ich meinen Programmtext  (Programm Code) eingegeben habe, speichere ich ihn in einer Datei ab.
-Dies geschieht wieder im Menu unter *File* und dann dem Unterpunkt *Save*. Das es ja eine neue Datei war,
-wählen oder erstellen wir ein Verzeichniss und geben dann einen passenden Dateinamen ein.
-Der gewählte Dateiname steht jetzt in der Kopfzeile des Editorfenster.
+Dies geschieht wieder im Menu unter *File* und dann dem Unterpunkt *Save*. Das es eine neue Datei war,
+wählen oder erstellen wir ein Verzeichniss und vergeben einen passenden Dateinamen.
+Der gewählte Dateiname wird danach in der Kopfzeile des Editorfenster angzeigt.
 
 
 .. figure:: pics/idle_03.png
