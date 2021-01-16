@@ -18,7 +18,7 @@ bietet einen entsprechenden Download an.
 .. _myinstallation-hint:
 
 **Wichtig** ist nur, dass bei einer Installation unter Windows die Option ausgewählt wird,
-dass Python auch auf der *Windows-Kommandozeile* ausgeführt werden kann.
+mit der Python auch auf der *Windows-Kommandozeile* ausgeführt werden kann.
 Dazu muss ein Kästchen mit einer Bezeichnung wie "Add Python 3.x to PATH" oder "Add Python to
 your environment variables" ausgewählt werden.
 
