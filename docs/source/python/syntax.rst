@@ -20,18 +20,12 @@ zu den Regeln, die beim Schreiben von Python Programmen beachtet werden müssen:
 *   Um die Lesbarkeit des Codes zu verbessern, können an bestimmten
     Stellen **Leerzeichen** und *Leerzeilen* eingefügt werden.
     |br| |br|
-
-*   Zusammengehörende  Anweisungen, die z.B. auf eine :ref:`If-Anweisung <bool1>` folgen,
-    sind alle gleich weit nach rechts eingerückt (TAB oder besser 4 Leerzeichen).
-    (Es gibt hierfür keine geschweiften Klammern oder ähnliches)
-    |br| |br|
-
 *   Nach einem **Doppelpunkt**, wie z.B. bei einer `If-Anweisung` folgt immer eine oder 
     mehrere eingerückte Anweisungen. Um dem Genüge zu tun kann dort einfach nur
     das Schlüsselwort ``pass`` stehen.
     |br| |br|
 *   Zusammengehörende  Anweisungen, die z.B. auf eine :ref:`If-Anweisung <bool1>` folgen,
-    sind alle gleich weit nach rechts eingerückt (TAB oder besser 4 Leerzeichen).
+    sind alle gleich weit nach rechts **eingerückt** (TAB oder besser 4 Leerzeichen).
     (Es gibt hierfür keine geschweiften Klammern oder ähnliches)
     |br| |br|
 *   Ein solcher **Anweisungsblock** endet an der Stelle, an der eine Anweisung

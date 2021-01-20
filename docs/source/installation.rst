@@ -1,4 +1,4 @@
-
+﻿
 .. _myinstallation:
 
 #######################
@@ -10,7 +10,7 @@ Programme, die für *Python2* geschrieben wurden, im Normalfall nicht von *Pytho
 Wir werden hier eine aktuelle **Python3.x** Version benutzen.
 
 *Python* ist Open Source und kostenlos und die Installation auf dem eigenen Rechner ist 
-ganz einfach. Das Orginal, in allen Versionen und für alle Betriebssysteme 
+ganz einfach. Das Original, in allen Versionen und für alle Betriebssysteme
 gibt es auf `www.python.org <https://www.python.org/downloads>`_.
 Aber z.B. auch die `Zeitschrift Chip <http://www.chip.de/downloads/Python_22363252.html>`_
 bietet einen entsprechenden Download an.

@@ -30,3 +30,5 @@ Allerdings ist die Sprache in sich, wie wir später sehen werden, komplett objek
     if.rst
     syntax.rst
     while.rst
+    liste.rst
+    for.rst
