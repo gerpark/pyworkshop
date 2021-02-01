@@ -32,3 +32,4 @@ Allerdings ist die Sprache in sich, wie wir später sehen werden, komplett objek
     while.rst
     liste.rst
     for.rst
+    fun2.rst

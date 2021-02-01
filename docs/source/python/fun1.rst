@@ -2,9 +2,9 @@
 
 .. index:: function, procedure
 
-##########
-Funktionen
-##########
+####################
+Funktionen verwenden
+####################
 
 Sowie es bei den meisten Programmiersprachen Variablen gibt, so gibt es auch
 immer Unterprogramme oder Prozeduren, die je nach Programmiersprache auch wieder
