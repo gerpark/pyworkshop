@@ -4,7 +4,7 @@
 .. index:: list, liste, Index, aggregierter Datentyp, zusammengesetze Datentypen
 
 #################
-der Datentyp list 
+Der Datentyp list 
 #################
 
 Um die `for-Schleife` verstehen oder nutzen zu können, müssen wir zuerst

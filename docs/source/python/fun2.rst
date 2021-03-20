@@ -8,13 +8,13 @@ Funktionen erstellen
 
 Alle höheren Programmiersprachen haben die Möglichkeit Anweisungen so
 zusammenzufassen, dass sie auch mehrfach ausgeführt werden können.
-Auch hierfür gibt es unterschiedlichste Namen wie z.B. Unterprogramm,
+Hierfür gibt es unterschiedlichste Bezeichnungen wie z.B. Unterprogramm,
 Prozedur oder im Falle von Python eben Funktion.
 
 Auf diese Weise kann Programmcode (und Speicher) gespart werden
-und das Programm wird auch übersichtlicher.
-Funktionen enthalten häufig Parameter, damit kann die Funktion
-flexibler eingesetzt werden.
+und das Programm wird zudem übersichtlicher.
+Funktionen enthalten häufig Parameter, mit denen die Funktion
+flexibler eingesetzt werden kann.
 Ausserdem ist es häufig die Aufgabe einer Funktion ein bestimmtes 
 Ergebnis zu ermitteln, das dann an die Stelle zurückgeliefert wird,
 an der die Funktion aufgerufen wurde.

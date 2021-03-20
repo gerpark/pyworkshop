@@ -14,8 +14,8 @@ Mit Python sind eigentlich zwei Sachen gemeint:
 Zum einen ist es die Programmiersprache *Python*
 zum anderen ist es das Programm ``python``.
 
-Wird das Programm ``python`` einfach so aufgerufen, 
-sieht das doch ziemlich wie ein :ref:`Kommandozeilenprogramm <cmd-line>` aus.
+Wird das Programm ``python`` einfach so aufgerufen, sieht das doch
+ziemlich wie ein :ref:`Kommandozeilenprogramm <cmd-line>` aus !?
 
 Und richtig, es ist die sogenannte :ref:`Python-Shell<python-shell>`.
 
@@ -48,6 +48,7 @@ gibt es zu diesem Thema wieder eine gute Beschreibung.
 Wir brauchen hier aber keinen extra Editor, da wir den aus
 der IDLE verwenden.
 
+.. _idle:
 
 IDLE
 ----

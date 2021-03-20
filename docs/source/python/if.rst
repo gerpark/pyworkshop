@@ -12,7 +12,7 @@ Wie wird jetzt der Ablauf des Programms gesteuert, d.h. wie kann festgelegt
 werden, was als nächstes im Programmablauf ausgeführt werden soll.
 
 Dazu gibt es die `If-Anweisung`, die mit dem Schlüsselwort **if**
-beginnt, dann folgt die Bedingung (der *boolscher Ausdruck*)
+beginnt, dann folgt die Bedingung (der *boolsche Ausdruck*)
 und am Ende steht ein **Doppelpunkt**:
 
 Wir erstellen eine Datei z.B. quiz.py und schreiben:
@@ -34,14 +34,14 @@ Die *if-Anweisung* kann mit **else** und **elif** (=else if) erweitert werden.
 Sobald eine der Bedingungen erfüllt ist, werden die übrigen Bedingungen
 nicht weiter geprüft.
 
-Wir erstellen eine weiter Datei und schreiben: 
+Wir erstellen eine weitere Datei und schreiben: 
 
 .. code:: python
 
     eingabe = input("Wieviel Tage hat der November? ")
 
 Um prüfen zu können, ob dieser Monat mehr oder weniger Tage hat,
-muss der String, den wir von der Funktion `input` zurückerhalten haben,
+muss der String, den wir von der Funktion ``input`` zurückerhalten haben,
 zuerst in eine Zahl gewandelt werden:
 
 .. code:: python

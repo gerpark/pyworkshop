@@ -13,7 +13,7 @@ von Gerhard Sachs
 
 Dieses Dokument wird kontinuierlich weiterbearbeitet.
 
-Version 1.04 vom 19 Januar 2021
+Version 1.20 vom 20 März 2021
 
 Und hier noch ein Link mit ein bisschen was zu `Python, dem Workshop und mir <http://www.ortrun-dieterich.de/workshop.html>`_ 
 
@@ -26,6 +26,7 @@ Und hier noch ein Link mit ein bisschen was zu `Python, dem Workshop und mir <ht
     installation.rst
     werkzeuge.rst
     python/index.rst
+    turtle/index.rst
     
 
 Suchen und Finden 
