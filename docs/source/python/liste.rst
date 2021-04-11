@@ -57,7 +57,7 @@ Wir können auch den Wert/Inhalt der einzelnen Elemente ändern:
         [55,9,20,3]
 
 
-`Zusammengesetzte Datentypen` und Schleifen bilden häufig ein festes Paar:
+`Zusammengesetzte Datentypen` und Schleifen hängen eng miteinander zusammen:
 
 .. code:: python
 

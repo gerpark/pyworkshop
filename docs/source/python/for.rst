@@ -10,7 +10,7 @@ Die for Schleife
 Jetzt aber zum 2ten Schleifentyp:
 Die `for-Schleife` ist eine besondere Stärke von Python, kurz und effektiv,
 kein Wunder dass sie ständig und überall benutzt wird.
-Sie wird häufig mit `Zusammengesetzte Datentypen` verwendet und
+Sie wird meist in Kombination mit `Zusammengesetzte Datentypen` verwendet und
 ist dann eigentlich nur eine Kurzform der `while-Schleife`.
 
 Ich zeige dass mal an diesem kleinen Beispiel:

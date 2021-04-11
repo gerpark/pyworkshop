@@ -9,7 +9,7 @@ Die while Schleife
 
 In Python gibt es 2 Schleifentypen, wir beginnen mit der `while-Schleife`.
 
-Mit Schleifen können eine oder mehrere Anweisungen wiederholt werden.
+Mit Schleifen können eine oder mehrere Anweisungen wiederholt ausgeführt werden.
 Dabei stellt sich zuerst die Frage, wie sich die Zahl der **Wiederholungen** steuern läßt.
 
 Wir probieren es mit einem einfachen Beispiel und lassen uns irgendetwas

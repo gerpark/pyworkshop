@@ -23,13 +23,17 @@ Das Turtle Modul ist Teil der Standardbibliothek und eignet sich bestens dafür,
 alle wichtigen Aspekte der Objektorientierung anschaulich zu verdeutlichen.
 
 Zu Anfang werden wir die Turtle zusammen mit Funktionen verwenden;
-hier benutzen wir noch die `Einstiegsvariante`, die nur Funktionen kennt.
+hier benutzen wir noch die **Einstiegsvariante**, die nur Funktionen kennt.
 
-Danach geht es mit der `echten`, der `Expertenvariante` des Turtle Modul's weiter,
+.. _turtlexpert:
+
+Danach geht es mit der `echten`, der **Expertenvariante** des Turtle Modul's weiter,
 und die ist nicht mehr für Programmieranfänger geeignet.
-Dabei geht es zuerst darum, was `Objekte` sind und wie sie verwendet werden können.
+Dabei geht es zuerst darum, was 
+:ref:`Objekte <oop-allg>`
+sind und wie sie verwendet werden können.
 
-Und schliesslich endlich werden wir im Spiel "Run Turtle, Run!" eigene `Klassen` erstellen,
+Und schliesslich endlich werden wir im Spiel **Run Turtle, Run!** eigene `Klassen` erstellen,
 und ab hier geht es komplett objektorientiert weiter.
 
 

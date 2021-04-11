@@ -42,12 +42,12 @@ Es kann aber auch mit Koordinaten gearbeitet werden, so liefert ``xcor`` die X-
 und ``ycor`` die Y-Kooridinate. Mit ``goto(x,y)`` wird der Stift zu der angegebenen
 Position gefahren.
 
-Dann gibt auch noch Funktionen, die sich statt auf den Stift, auf die Zeichenfläche 
-oder das Fenster beziehen. So wird mit ``setup(500,300)`` ein Fenster mit 
-der Breite von 500 und der Höhe von 300 Pixeln  erhalten.
+Dann gibt es auch noch Funktionen, die sich statt auf den Stift, auf die Zeichenfläche 
+oder das Fenster beziehen. So erhalten wir mit ``setup(500,300)`` ein Fenster mit 
+der Breite von 500 und der Höhe von 300 Pixeln.
 
-Soll die Nullpunkt des Koordinatenkreuzes, statt in der Mitte, am
-unteren linken Ende sein, kann das so eingestellt werden:
+Soll die Nullpunkt des Koordinatenkreuzes, statt in der Mitte, in der 
+unteren linken Ecke sein, kann das so eingestellt werden:
 
 .. code:: python
 

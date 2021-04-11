@@ -54,7 +54,7 @@ Mit Hilfe von **Parametern**  kann eine Funktion für ähnliche Aufgaben
 verwendet werden. `Parameter` sind Variablen, die im Funktionskopf festgelegt
 werden und dann im Funktionskörper verwendet werden können.
 
-Die beim Aufruf an die Funktion übergebenen Werte, werden als Argumente bezeichnet.
+Die beim Aufruf an die Funktion übergebenen Dinge, werden als Argumente bezeichnet.
 
 .. code:: python
 
