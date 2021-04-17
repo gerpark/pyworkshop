@@ -1,7 +1,7 @@
 
 .. _liste:
 
-.. index:: list, liste, Index, aggregierter Datentyp, zusammengesetze Datentypen
+.. index:: list, liste, Index, aggregierter Datentyp, zusammengesetze Datentypen, array, vector
 
 #################
 Der Datentyp list 
@@ -21,8 +21,8 @@ noch noch viele andere `zusammengesetzte Datentypen` wie Tuple, Dictionary,  ...
 
 Eine Liste besteht aus mehreren Elementen, ähnlich wie eine
 Fahrradkette aus einzelnen Kettengliedern, oder eine Perlenkette aus
-aneinandergereihten Perlen besteht. Eine Liste hat einen festen Anfang
-und die Elemente haben eine die feste Reihenfolge.
+aneinander gereihten Perlen besteht. Allerdings hat eine Liste einen festen Anfang
+und die Elemente damit eine feste Reihenfolge.
 
 Eine Liste wird mit eckigen Klammern erstellt (=initialisiert), die einzelnen Werte werden durch Kommas getrennt:
 

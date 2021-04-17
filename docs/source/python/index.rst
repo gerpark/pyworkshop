@@ -9,9 +9,7 @@
 Python
 ######
 
-Die Programmiersprache Python
-
-https://www.tiobe.com/tiobe-index//
+Die Programmiersprache Python.
 
 Python gehört mit zu den `beliebtesten Programmiersprachen <https://www.tiobe.com/tiobe-index//>`_,
 sie ist vielseitig verwendbar und weltweit beliebt und verbreitet.
@@ -26,7 +24,7 @@ Allerdings ist die Sprache in sich, wie wir später sehen werden, komplett objek
 .. toctree::
     :numbered:
     :maxdepth: 2
-    :caption: Contents:
+    :caption: Inhalt:
 
     basic.rst
     var1.rst
@@ -38,3 +36,4 @@ Allerdings ist die Sprache in sich, wie wir später sehen werden, komplett objek
     liste.rst
     for.rst
     fun2.rst
+    mutable.rst

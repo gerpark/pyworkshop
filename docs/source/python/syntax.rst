@@ -25,7 +25,7 @@ zu den Regeln, die beim Schreiben von Python Programmen beachtet werden müssen:
     das Schlüsselwort ``pass`` stehen.
     |br| |br|
 *   Zusammengehörende  Anweisungen, die z.B. auf eine :ref:`If-Anweisung <bool1>` folgen,
-    sind alle gleich weit nach rechts **eingerückt** (TAB oder besser 4 Leerzeichen).
+    sind alle gleich weit nach rechts **eingerückt** (am besten 4 Leerzeichen).
     (Es gibt hierfür keine geschweiften Klammern oder ähnliches)
     |br| |br|
 *   Ein solcher **Anweisungsblock** endet an der Stelle, an der eine Anweisung

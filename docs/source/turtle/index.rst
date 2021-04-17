@@ -44,3 +44,4 @@ und ab hier geht es komplett objektorientiert weiter.
 
     tbasics.rst
     tfunktionen.rst
+    turtleoop.rst
