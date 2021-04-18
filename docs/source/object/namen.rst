@@ -1,5 +1,5 @@
-
-.. index:: Namen, Objekte, mutable, veränderlich, unveränderlich, globale Variable
+﻿
+.. index:: Namen, Objekte, mutable, veränderlich, unveränderlich, globale Variable, Garbage Collection, Lebensdauer
 
 .. _oop-namen:
 
@@ -16,7 +16,7 @@ Wir haben ja schon gesehen, dass eine Variable, d.h. eine Variable mit demselben
 für unterschiedliche Datentypen verwendet werden kann.
 
 Das bedeutet, dass in Python, im Gegensatz zu vielen anderen
-Programmiersprachen, die Variable selbst, nichts über ihren Inhalt weiß, d.h.
+Programmiersprachen, die Variable selbst nichts über ihren Inhalt weiß, d.h.:
 
 **eine Variable ist einfach nur ein Name für etwas !**
 
@@ -43,7 +43,7 @@ denn wir haben für die Turtle keinen gültigen Namen.
 Am Bildschirm wird die Turtle zwar noch angezeigt, kann aber nicht
 angesprochen und damit auch nicht mehr verwendet werden, nur noch ein Schatten ihrer selbst!
 
-Außerem sind in Python alle Namen gleichwertig, d.h. dass z.B. auch ein
+Außerdem sind in Python alle Namen gleichwertig, d.h. dass z.B. auch ein
 Funktionsname auf diese Weise unbrauchbar gemacht werden kann.
 Handelt es sich bei dem Namen um eine lokale Variable, ist die Auswirkung nur begrenzt,
 aber bei global gültigen Namen ist wirklich **Vorsicht** geboten.
@@ -85,14 +85,12 @@ gibt es jetzt also ein oder zwei Turtles ?
 
 
 Eine Zuweisung führt also zu **keiner Kopie**, also zu keiner 2ten Turtle,
-sondern nur zu einem weiteren Namen für dasselbe Objekt.
-
-Auf diese Weise, kann es also bei veränderlichen Datentypen zu mehreren Namen
-für ein und dasselbe Objekt kommen. 
+sondern nur zu einem weiteren Namen für dasselbe Objekt. Auf diese Weise,
+kann es also für ein und dasselbe Objekt mehrere Namen geben.
 
 Bei der 2ten Besonderheit geht es um globale Variablen.
 Zeigt nämlich eine globale Variable auf ein veränderliches Objekt, dann
-läßt sich dieses Objekt von überall aus ändern, z.B. aus einer Funktion heraus.
+lässt sich dieses Objekt von überall aus ändern, z.B. aus einer Funktion heraus.
 
 
 .. code:: python
@@ -108,10 +106,16 @@ läßt sich dieses Objekt von überall aus ändern, z.B. aus einer Funktion hera
 Kernsätze 
 ---------
 
-.. index:: Garbage Collection,
+.. index:: Garbage Collection, Lebensdauer
+
+..  Garbage Collection, Lebensdauer
 
 *	Variablen sind einfach nur Namen, die auf ein Objekt zeigen. 
 
-*	veränderliche Objekte werden bei einer Zuweisung nicht kopiert, sondern bekommen einen weiteren Namen.
+*   die Lebensdauer eines Objekts ist lange, wie es dafür einen gültigen Namen gibt.
+
+*	'veränderliche Objekte' werden bei einer Zuweisung nicht kopiert, sondern bekommen einen weiteren Namen.
 
 *   Hat ein Objekt keinen Namen mehr, wird es aus dem Speicher entfernt (=Garbage Collection) 
+
+
