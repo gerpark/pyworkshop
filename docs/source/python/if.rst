@@ -1,4 +1,4 @@
-.. _bool1:
+﻿.. _bool1:
 
 .. index:: Bedingte Anweisung, if, elif, else
 
@@ -38,7 +38,7 @@ Wir erstellen eine weitere Datei und schreiben:
 
 .. code:: python
 
-    eingabe = input("Wieviel Tage hat der November? ")
+    eingabe = input("Wie viele Tage hat der November? ")
 
 Um prüfen zu können, ob dieser Monat mehr oder weniger Tage hat,
 muss der String, den wir von der Funktion ``input`` zurückerhalten haben,
@@ -65,5 +65,5 @@ die Funktion ``print`` steht wieder ganz links und wird damit in jedem Fall ausg
 
     print("Programm Ende")
  
-Der Programmcode steht also immer ganz links, oder nach bestimmten Regeln,
+Der Programmcode steht also immer ganz links, oder nach bestimmten Regeln
 nach rechts eingerückt. 

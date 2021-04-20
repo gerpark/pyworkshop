@@ -15,7 +15,7 @@ Auf diese Weise kann Programmcode (und Speicher) gespart werden
 und das Programm wird zudem übersichtlicher.
 Funktionen enthalten häufig Parameter, mit denen die Funktion
 flexibler eingesetzt werden kann.
-Ausserdem ist es häufig die Aufgabe einer Funktion ein bestimmtes 
+Außerdem ist es häufig die Aufgabe einer Funktion ein bestimmtes 
 Ergebnis zu ermitteln, das dann an die Stelle zurückgeliefert wird,
 an der die Funktion aufgerufen wurde.
 
@@ -36,8 +36,7 @@ Der Funktionskopf beginnt mit dem Schlüsselwort **def** und endet mit Doppelpun
 Die folgenden Anweisungen sind alle eingerückt (wie immer nach einem
 Doppelpunkt) und bilden den Funktionskörper.
 
-Wir beginnen schrittchenweise mit einem kleinen Beispiel, in dem wir den Flächeninhalt
-eines Kreises berechnen.
+Wir beginnen schrittchenweise mit einem kleinen Beispiel, in dem wir den Flächeninhalt eines Kreises berechnen.
 
 .. code:: python
 
@@ -78,7 +77,7 @@ die aber nur innerhalb der Funktion benutzt werden können
 
         result = pi * radius ** 2 
 
-        print("Die Flächeninhalt beträgt ", result, "qmm.")
+        print("Der Flächeninhalt beträgt ", result, "qmm.")
 
 
 Hier sind also `pi`, `resultat` und auch der Parameter `radius` Lokale Variablen.
@@ -89,7 +88,7 @@ geschieht mit Hilfe der **return** Anweisung.
 Dabei wird das was hinter dem `return` steht, an der Stelle angeliefert
 an der die Funktion aufgerufen wurde.
 
-Gleichzeitig wird die Funktion, sobald eine return Anweisung erreicht wurde,
+Gleichzeitig wird die Funktion, sobald eine Return-Anweisung erreicht wurde,
 auch beendet.
 
 .. code:: python
@@ -103,10 +102,10 @@ auch beendet.
 
 
     ergebnis = flaeche(100)
-    print("Die Flächeninhalt beträgt ", ergebnis, "qmm.")
+    print("Der Flächeninhalt beträgt ", ergebnis, "qmm.")
 
 
-Grundsätzlich muss die return Anweisung nicht nur am Ende, sondern kann
+Grundsätzlich muss die Return-Anweisung nicht nur am Ende, sondern kann
 auch zusammen mit einer Bedingung irgendwo anders innerhalb der Funktion stehen. 
 Das sollte aber besser vermieden werden, da das Programm dadurch leicht unübersichtlich wird.
 
@@ -114,3 +113,54 @@ Denn das **wichtigste Gesetz** beim Programmieren heißt:
 Der Programmcode soll möglichst klar, gut lesbar
 und verständlich sein! 
 (so dass sich auch jemand anderes darin zurechtfinden kann)
+
+
+Parameter und Argumente
+-----------------------
+
+Für die **Zuordnung** zwischen den Parametern (Variablen im Funktionskopf) und den 
+Argumenten, das sind Variablen oder Werte beim Aufruf der Funktion,
+gibt es mehrere Möglichkeiten.
+
+Standardmäßig geschieht es über die Reihenfolge, d.h. das erste Argument
+wird an den ersten Parameter übergeben, und das zweite Argument landet im
+zweiten Parameter u.s.w.
+
+Die Zahl der Parameter und Argumente muss übereinstimmen.
+
+Die Zuordnung kann aber auch explizit über den Parameternamen geschehen,
+das ist besonders hilfreich, wenn die Funktion viele Parameter hat.
+
+Bei unserem Flächenbeispiel würde der Aufruf dann so aussehen:
+
+.. code:: python
+
+    def flaeche(radius):
+        ...
+        ...
+
+    ergebnis = flaeche(radius=100)
+
+
+Die beiden Methoden lassen sich auch mischen, dann muss allerdings mit 
+den Parametern angefangen werden, die über die Reihenfolge zugeordnet werden.
+
+Default Werte
+-------------
+
+Es gibt aber auch die Möglichkeit die Parameter mit einem Wert vor zubelegen,
+so etwas wird als Defaultwert bezeichnet.
+
+Ich bleibe bei dem Beispiel mit der Flächenberechnung, auch wenn die Vorbelegung
+des Radius nicht besonders sinnvoll ist.
+
+.. code:: python
+
+    def flaeche(radius=50):
+        ...
+        ...
+
+    ergebnis = flaeche()
+
+Dadurch dass der Parameter 'radius' im Funktionskopf schon einen Wert hat,
+kann die Funktion jetzt mit oder ohne Argument aufgerufen werden.

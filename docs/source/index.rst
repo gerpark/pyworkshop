@@ -13,9 +13,9 @@ von Gerhard Sachs
 
 Dieses Dokument wird kontinuierlich weiterbearbeitet.
 
-Version 1.41 vom 18 April 2021
+Version 1.50 vom 20 April 2021
 
-Und hier noch ein Link mit ein bisschen was zu `Python, dem Workshop und mir <http://www.ortrun-dieterich.de/workshop.html>`_ 
+Und hier noch ein Link mit ein bisschen was zu `Python, dem Workshop und mir <http://www.ortrun-dieterich.de/workshop.html>`_ .
 
 
 .. toctree::

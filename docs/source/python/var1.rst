@@ -95,7 +95,7 @@ Bei unseren ersten Experimenten haben wir jetzt folgende *Datentypen* kennengele
 * Strings
     *str*
 
-    Strings werden jeweils von einem " oder einem ' begrenzt. Es ist egal welches
+    Strings werden jeweils von einem einfachen (**\'**) oder doppelten Hochkomma (**\"**) begrenzt. Es ist egal welches
     der beiden Zeichen verwendet wird, es muss nur am Anfang und am Ende dasselbe sein.
 
 Wir werden gleich sehen, wie der Datentyp einer Variablen ermittelt werden kann.

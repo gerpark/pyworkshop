@@ -112,7 +112,7 @@ Kernsätze
 
 *	Variablen sind einfach nur Namen, die auf ein Objekt zeigen. 
 
-*   die Lebensdauer eines Objekts ist lange, wie es dafür einen gültigen Namen gibt.
+*   die Lebensdauer eines Objekts ist so lange, wie es dafür einen gültigen Namen gibt.
 
 *	'veränderliche Objekte' werden bei einer Zuweisung nicht kopiert, sondern bekommen einen weiteren Namen.
 

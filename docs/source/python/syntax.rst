@@ -1,11 +1,11 @@
-
-.. index:: Syntax, Regeln, Grammatik, Kommentar, pass, if
+﻿
+.. index:: Syntax, Einrücken, Grammatik, Kommentar, pass, if, Anweisung
 
 ######
 Syntax
 ######
 
-Mit der if Anweisung haben wir schon die große Besonderheit von Python
+Mit der :ref:`If-Anweisung <bool1>` haben wir schon die große Besonderheit von Python
 kennengelernt, das **Einrücken**.
 Hier nochmal ein kleiner Überblick zur Grammatik (=Syntax) also
 zu den Regeln, die beim Schreiben von Python Programmen beachtet werden müssen:
@@ -24,7 +24,7 @@ zu den Regeln, die beim Schreiben von Python Programmen beachtet werden müssen:
     mehrere eingerückte Anweisungen. Um dem Genüge zu tun kann dort einfach nur
     das Schlüsselwort ``pass`` stehen.
     |br| |br|
-*   Zusammengehörende  Anweisungen, die z.B. auf eine :ref:`If-Anweisung <bool1>` folgen,
+*   Zusammengehörende  Anweisungen, die z.B. auf eine `If-Anweisung` folgen,
     sind alle gleich weit nach rechts **eingerückt** (am besten 4 Leerzeichen).
     (Es gibt hierfür keine geschweiften Klammern oder ähnliches)
     |br| |br|
@@ -51,14 +51,12 @@ Hier nochmal ein kleines Beispiel:
         print("die Zahl ist kleiner 100.")
     else:
         pass    # macht einfach nichts
-        print("... stimmt nicht, die Zahl ist zu gross.")
+        print("... stimmt nicht, die Zahl ist zu groß.")
 
-    # Jetzt gehts wieder auf der ersten Ebene weiter, denn
+    # Jetzt geht es wieder auf der ersten Ebene weiter, denn
     # der "eingerückte Anweisungs-Block" ist zu Ende.
     # Die folgende Anweisung wird also in jedem Fall ausgeführt.
     print("Programm Ende")
-
-
 
 .. |br| raw:: html
 

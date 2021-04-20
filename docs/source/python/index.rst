@@ -20,10 +20,10 @@ als Einstiegssprache, behaupte nicht nur ich, sicherlich die erste Wahl.
 Mit Python kann prozedural oder auch objektorientiert programmiert werden.
 Allerdings ist die Sprache in sich, wie wir später sehen werden, komplett objektorientiert.
 
+.. Mit :numbered: würden die Unterabschnitte nummeriert.
 
 .. toctree::
-    :numbered:
-    :maxdepth: 2
+    :maxdepth: 3
     :caption: Inhalt:
 
     basic.rst
