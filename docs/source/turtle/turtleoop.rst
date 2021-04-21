@@ -3,9 +3,9 @@
 
 .. _turtle-oop:
 
-#######################
-Turtle Objektorientiert
-#######################
+#########################
+Turtle - Objektorientiert
+#########################
 
 Die eigentliche, die Experten Version des Turtle Moduls ist :ref:`objektorientiert<oop-index>`, 
 und enthält mehrere Klassen.

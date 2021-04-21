@@ -36,4 +36,5 @@ Allerdings ist die Sprache in sich, wie wir später sehen werden, komplett objek
     liste.rst
     for.rst
     fun2.rst
+    scope.rst
     mutable.rst

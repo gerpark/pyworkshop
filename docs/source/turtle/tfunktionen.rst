@@ -1,16 +1,14 @@
-
+﻿
 .. index:: turtle, farben 
 
-#################
-Turtle Funktionen
-#################
+###################
+Turtle - Funktionen
+###################
 
 Die Einstiegsvariante der Turtle Software ist prozedural,
-d.h. hier werden einfach nur Funktionen benutzt.
+d.h. hier werden einfach nur Funktionen verwendet.
 
-Wir kennen schon die Funktion ``forward(pixel)``. Andere Funktionen mit denen der Stift
-relativ zur aktuellen Position und Richtung bewegt werden kann sind z.B:
-
+Wir kennen schon die Funktion ``forward(pixel)``. Andere Funktionen mit denen der Stift relativ zur aktuellen Position und Richtung bewegt werden kann sind z.B:
 ``left(90)``, dabei dreht sich die Turtle um 90 Grad nach links,
 und mit ``right(grad)`` entsprechend nach rechts.
 Mit ``circle(180)`` wird ein Halbkreis gezeichnet.
@@ -31,8 +29,8 @@ Wir probieren auf der :ref:`Python-Shell<python-shell>`:
     forward(100)
 
 
-Schon nach der Eingabe von  ``shape`` öffnet sich ein neues Fenster und der Zeichenstift
-wird in der gewünschten Art angezeigt ('arrow', 'turtle', 'circle', 'square', 'triangle', 'classic').
+Schon nach der Eingabe von  ``shape`` öffnet sich ein neues Fenster und der Zeichenstift wird in der gewünschten Art angezeigt
+('arrow', 'turtle', 'circle', 'square', 'triangle', 'classic').
 
 Mit der Funktion ``up`` wird der Zeichenstift angehoben und damit auch nicht
 mehr gezeichnet, nur noch die Spitze des Stifts wird angezeigt.
@@ -43,24 +41,23 @@ und ``ycor`` die Y-Kooridinate. Mit ``goto(x,y)`` wird der Stift zu der angegebe
 Position gefahren.
 
 Dann gibt es auch noch Funktionen, die sich statt auf den Stift, auf die Zeichenfläche 
-oder das Fenster beziehen. So erhalten wir mit ``setup(500,300)`` ein Fenster mit 
-der Breite von 500 und der Höhe von 300 Pixeln.
+oder das Fenster beziehen. So erhalten wir mit ``setup(500,300)`` ein Fenster mit der Breite von 500 und der Höhe von 300 Pixeln.
 
 Soll die Nullpunkt des Koordinatenkreuzes, statt in der Mitte, in der 
-unteren linken Ecke sein, kann das so eingestellt werden:
+unteren linken Ecke sein, kann das folgendermaßen eingestellt werden:
 
 .. code:: python
 
     from turtle import *
 
-    # Die Grösse des Fensters festlegen.
+    # Die Größe des Fensters festlegen.
     setup(500,300)
 
     # den Nullpunkt verschieben
     setworldcoordinates(0,0,500,300)
 
 
-Ausserdem kann durch das Drücken einer Taste
+Außerdem kann durch das Drücken einer Taste
 eine Funktion aufgerufen werden:
 
 .. code:: python
