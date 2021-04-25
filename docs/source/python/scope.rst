@@ -34,12 +34,10 @@ also für die Zeit, bei der die Funktion abgearbeitet wird.
 Variablen, die aber außerhalb von Funktionen, und damit
 also \'ganz links\' im Programmcode stehen, heißen **globale Variablen**.
 
-Diese Variablen können prinzipiell überall verwendet werden,
-auch wenn davon sehr abgeraten wird.
+.. _py-noglobal:
 
-Wie so manchmal lässt uns Python hier große Freiheiten, 
-die aber im Sinne von einem gut verständlichen und gut wartbaren Programmcode
-nur sparsam und wohlüberlegt genutzt werden sollten.
+Diese Variablen können prinzipiell überall verwendet werden,
+auch wenn globale Variablen möglich **nicht verwendet** werden sollen.
 
 .. code:: python
 
@@ -54,6 +52,10 @@ nur sparsam und wohlüberlegt genutzt werden sollten.
 Der Kritikpunkt hier ist eine `unsaubere Schnittstelle`, denn die Funktion
 verlässt sich darauf, dass es die Variable `aussen` gibt.
 Für eine `saubere Schnittstelle` hätte ein Parameter verwendet werden müssen.
+
+Aber wie so manchmal lässt uns Python hier große Freiheiten, 
+aber im Sinne von einem gut verständlichen und gut wartbaren Programmcode
+sollten globale Variablen nur sehr sparsam und wohlüberlegt verwendet werden.
 
 Manchmal werden globale Variablen verwendet, wenn ein bestimmter Wert 
 an sehr vielen Stellen benötigt wird, aber immer gleich bleibt.

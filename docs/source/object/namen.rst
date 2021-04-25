@@ -46,9 +46,9 @@ angesprochen und damit auch nicht mehr verwendet werden, nur noch ein Schatten i
 Außerdem sind in Python alle Namen gleichwertig, d.h. dass z.B. auch ein
 Funktionsname auf diese Weise unbrauchbar gemacht werden kann.
 Handelt es sich bei dem Namen um eine lokale Variable, ist die Auswirkung nur begrenzt,
-aber bei global gültigen Namen ist wirklich **Vorsicht** geboten.
+aber bei :ref:`global gültigen Namen<py-noglobal>` ist wirklich **Vorsicht** geboten.
 
-Ein weiterer Grund möglichst wenig **globalen Variablen** zu verwenden!
+Ein weiterer Grund möglichst wenig oder keine **globalen Variablen** zu verwenden!
 
 
 .. _py-mutable2:
@@ -91,7 +91,7 @@ kann es also für ein und dasselbe Objekt mehrere Namen geben.
 Bei der 2ten Besonderheit geht es um globale Variablen.
 Zeigt nämlich eine globale Variable auf ein veränderliches Objekt, dann
 lässt sich dieses Objekt von überall aus ändern, z.B. aus einer Funktion heraus.
-
+Aber auch hier nochmal: möglichst wenig :ref:`globale Variablen <py-noglobal>` verwenden!
 
 .. code:: python
 
