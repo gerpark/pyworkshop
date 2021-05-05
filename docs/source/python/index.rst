@@ -38,3 +38,4 @@ Allerdings ist die Sprache in sich, wie wir später sehen werden, komplett objek
     fun2.rst
     scope.rst
     mutable.rst
+    module.rst

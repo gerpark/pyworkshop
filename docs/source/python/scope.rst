@@ -13,7 +13,7 @@ Scope
 Scope ist die Bezeichnung für den **Geltungsbereich**, d.h. wo kann
 welche Variable verwendet werden, wo ist sie gültig ?
 
-Variablen, die innerhalb einer Funktion erstellt, also definiert 
+Variablen, die innerhalb einer Funktion erstellt (=definiert)
 wurden, sind **lokale Variablen**. Das bedeutet, dass diese Variable
 nur innerhalb der Funktion verwendet werden kann.  
 Genauer gesagt, existiert die Variable auch nur zur Laufzeit, 
@@ -37,7 +37,7 @@ also \'ganz links\' im Programmcode stehen, heißen **globale Variablen**.
 .. _py-noglobal:
 
 Diese Variablen können prinzipiell überall verwendet werden,
-auch wenn globale Variablen möglich **nicht verwendet** werden sollen.
+auch wenn globale Variablen möglichst **nicht verwendet** werden sollen.
 
 .. code:: python
 
@@ -50,16 +50,17 @@ auch wenn globale Variablen möglich **nicht verwendet** werden sollen.
 
 
 Der Kritikpunkt hier ist eine `unsaubere Schnittstelle`, denn die Funktion
-verlässt sich darauf, dass es die Variable `aussen` gibt.
+verlässt sich darauf, dass es die Variable `aussen` gibt. Gibt es keine Variable mit diesem Namen,
+stürzt das Programm mit einem Laufzeitfehler ab.
 Für eine `saubere Schnittstelle` hätte ein Parameter verwendet werden müssen.
 
 Aber wie so manchmal lässt uns Python hier große Freiheiten, 
-aber im Sinne von einem gut verständlichen und gut wartbaren Programmcode
+aber im Sinne von einem sicheren, gut verständlichen und gut wartbaren Programmcode
 sollten globale Variablen nur sehr sparsam und wohlüberlegt verwendet werden.
 
-Manchmal werden globale Variablen verwendet, wenn ein bestimmter Wert 
+Manchmal werden globale Variablen benutzt, wenn ein bestimmter Wert 
 an sehr vielen Stellen benötigt wird, aber immer gleich bleibt.
-Das wird als **Konstante** bezeichnet, und dann ungeachtet der allgemeinen
+So etwas wird als **Konstante** bezeichnet, und ungeachtet der allgemeinen
 Regeln, komplett großgeschrieben.
 
 .. code:: python
@@ -73,4 +74,4 @@ Regeln, komplett großgeschrieben.
 
 
 Ein weiterführendes Thema, sind dann `Namensräume`, d.h. der lokale 
-und der globale Namensraum, die hier aber noch nicht besprochen werden sollen.
+und der globale Namensraum, die aber hier nicht besprochen werden sollen.
