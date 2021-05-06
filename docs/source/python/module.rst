@@ -11,8 +11,8 @@ Programme können auch aus mehreren Dateien bestehen.
 Wenn wir in unserem (Haupt)Programm eine andere Datei nutzen wollen,
 sprechen wir davon, dass wir ein Modul importieren.
 Tatsächlich aber ist ein Modul nichts anderes als ein Python Script.
-Ist euch die Bezeichnug in der IDLE aufgefallen, mit 
-der wir ein Program starten, - `Run Module`!
+Ist euch die Bezeichnung in der IDLE aufgefallen, mit
+der wir ein Programm starten, - `Run Module`!
 
 Zuerst schauen wir uns an, wie ein Python Script importiert,
 also verfügbar gemacht werden kann.
@@ -123,7 +123,7 @@ mit dem Namen `tools.py` :
     plus19(100)
     var = "Variable"
 
-Und wir erstellen im selben Verzeichniss eine Datei mit
+Und wir erstellen im selben Verzeichnis eine Datei mit
 dem Namen `main.py`.
 
 Jetzt können wir das Script tools.py einfach importieren,

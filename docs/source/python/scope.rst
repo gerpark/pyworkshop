@@ -1,11 +1,11 @@
 ﻿
-.. index:: Geltungsbereich
+.. index:: global, local, lokal, globale Variable, lokale Variable, Geltungsbereich, Scope, Konstante
 
 .. _py-scope1:
 
-#####
-Scope
-#####
+#######################
+Scope / Geltungsbereich
+#######################
 
 .. apr21: Vorlage war bas61h und bas63h - stimmt nicht !
 
@@ -58,9 +58,9 @@ Aber wie so manchmal lässt uns Python hier große Freiheiten,
 aber im Sinne von einem sicheren, gut verständlichen und gut wartbaren Programmcode
 sollten globale Variablen nur sehr sparsam und wohlüberlegt verwendet werden.
 
-Manchmal werden globale Variablen benutzt, wenn ein bestimmter Wert 
+Manchmal werden `globale Variablen` benutzt, wenn ein bestimmter Wert
 an sehr vielen Stellen benötigt wird, aber immer gleich bleibt.
-So etwas wird als **Konstante** bezeichnet, und ungeachtet der allgemeinen
+So etwas wird als **Konstante** bezeichnet und häufig, ungeachtet der allgemeinen
 Regeln, komplett großgeschrieben.
 
 .. code:: python

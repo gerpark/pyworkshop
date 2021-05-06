@@ -21,8 +21,6 @@ Programmiersprachen, die Variable selbst nichts über ihren Inhalt weiß, d.h.:
 **eine Variable ist einfach nur ein Name für etwas !**
 
 Genauer gesagt, enthält eine Variable einfach nur eine Referenz auf ein beliebiges Objekt.
-Im nächsten Schritt, ist dann nur noch die Frage, ob das Objekt
-einem veränderlichen oder unveränderlichen Datentyp angehört.
 
 Dieses Konzept macht die Sprache so handlich und erspart uns 
 im Vergleich zu anderen Sprachen viel Tipp-Arbeit.

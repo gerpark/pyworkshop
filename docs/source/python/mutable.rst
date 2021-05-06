@@ -1,10 +1,10 @@
 .. _py-mutable:
 
-.. index:: mutable, unmutable, veränderlich, unveränderlich
+.. index:: mutable, unmutable, Datentyp, veränderlich, unveränderlich
 
-#################
-un-, veränderlich
-#################
+#############################
+un-, veränderliche Datentypen
+#############################
 
 .. apr21: Vorlage war enf39i.py
 
@@ -49,10 +49,3 @@ an die Funktion übergeben, kann ich die Liste auch verändern !
 
 Zu diesem Thema gibt es noch zwei Besonderheiten bei :ref:`veränderlichen Datentypen <py-mutable2>`,
 die ich später zusammen mit Objekten bespreche.
-
-..  Dieses Thema, d.h. die Kopiergeschichte, später bei den Objekten
-    "Das große Spiel der Namen" behandeln und verlinken.
-    ausserdem, natürlich sobald wir weitere Datentypen besprechen.
-
-.. ==== hier gehts weiter ====
-
