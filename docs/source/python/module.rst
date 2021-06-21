@@ -55,7 +55,7 @@ In diesem Zusammenhang gibt es eine hilfreiche Funktion `dir()`.
     >>> dir()
 
 Ohne Parameter bekommen wir eine Liste der aktuell verwendeten Namen angezeigt,
-das sind einige voreingestelle Dinge, aber eben auch `math`, den Namen 
+das sind einige vor eingestelle Dinge, aber eben auch `math`, den Namen 
 unseres eben importierten Moduls.
 
 Wenn wir jetzt die Variante nehmen, die wir für das Turtle Module benutzt haben,
@@ -110,8 +110,8 @@ werden, sobald das Modul (in welcher Variante auch immer) importiert wurde.
 eigene Module nutzen
 --------------------
 
-Vielleicht einfach ein kurzes Beispiel, wir erstellen eine Datei 
-mit dem Namen `tools.py` :
+Vielleicht einfach ein kurzes Beispiel:
+Wir erstellen eine Datei mit dem Namen `tools.py` :
 
 .. code:: python
 
@@ -149,7 +149,7 @@ auch genutzt werden können:
 importiert oder nicht ?
 -----------------------
 
-In der Regel werden aus Modulen nur die Definitionen benötigt.  Beim Entwickeln und testen eines Moduls, 
+In der Regel werden aus Modulen nur die Definitionen benötigt. Beim Entwickeln und Testen eines Moduls,
 ist es aber praktisch, wenn die jeweiligen Funktionen auch im selben Script aufgerufen werden können.
 
 Dafür gibt es eine interne Variable `__name__` (2 Unterstriche), die wenn das Script importiert wurde,
