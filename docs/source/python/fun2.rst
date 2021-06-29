@@ -164,3 +164,16 @@ des Radius nicht besonders sinnvoll ist.
 
 Dadurch dass der Parameter 'radius' im Funktionskopf schon einen Wert hat,
 kann die Funktion jetzt mit oder ohne Argument aufgerufen werden.
+
+Benannte Parameter
+------------------
+
+Die Zuordnung der Parameter zwischen der Definition und dem Aufruf einer Funktion
+wurde bisher durch die Reihenfolge der Parameter bestimmt.
+ 
+Stattdessen kann die Zuordnung aber auch so geschehen, dass beim Aufruf der Funktion
+einfach die Namen der Parameter benutzt werden.
+Das hat zudem den Vorteil, dass das Programm leichter zu lesen ist.
+
+Die beiden Möglichkeiten lassen sich auch kombinieren, dann müssen aber zuerst
+die Parameter kommen, die über die Reihenfolge zugeordnet werden sollen.

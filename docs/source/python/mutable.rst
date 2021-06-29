@@ -1,4 +1,4 @@
-.. _py-mutable:
+﻿.. _py-mutable:
 
 .. index:: mutable, unmutable, Datentyp, veränderlich, unveränderlich
 
@@ -17,25 +17,24 @@ In Python lassen sich alle **Datentypen** in diese beiden Gruppen unterteilen.
 Viele Basisdatentypen wie `int`, `str`, `float` gehören zur Gruppe
 der **unveränderliche** Datentypen.
 Die meisten Datentypen sind allerdings **veränderlich**, wir kennen 
-aus dieser Gruppe bisher nur die Liste `list`.
+aus dieser Gruppe bisher nur die Liste, also den Datentyp `list`.
 
-Wenn ich z.B einen String an eine Funktion übergebe,
-dann kann ich die entsprechende Variable innerhalb der Funktion ändern,
-aber der Wert ausserhalb der Funktion bleibt trotzdem erhalten.
+Wenn ich einen String, den ich an eine Funktion übergebe habe,
+dort ändern will, geht das nur mit Hilfe von `return`.
+Das bedeutet aber auch, dass ich dann einen neuen String
+zurückgebe.
 
 .. code:: python
 
     def foo(text):
-        text = "neues"
-        print("Text in foo:", text)
-    
-    etwas = "altes"
-    foo(etwas)
-    print("Text ausserhalb:", etwas)
+        res = "<" + text + ">"
+        return  res
 
+(Ich könnte den Parameter, der ja eine lokale Variable ist, auch ändern,
+aber das wäre dann nur lokal, außerhalb der Funktion würde sich der Wert nicht ändern.)
 
-Wenn ich aber eine Liste, also einen veränderlichen Datentyp
-an die Funktion übergeben, kann ich die Liste auch verändern !
+Wenn ich aber eine Liste, also einen `veränderlichen Datentyp` an die Funktion
+übergebe, kann die Liste in der Funktion geändert werden !
 
 .. code:: python
     

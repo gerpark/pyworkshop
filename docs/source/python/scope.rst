@@ -36,8 +36,8 @@ also \'ganz links\' im Programmcode stehen, heißen **globale Variablen**.
 
 .. _py-noglobal:
 
-Diese Variablen können prinzipiell überall verwendet werden,
-auch wenn globale Variablen möglichst **nicht verwendet** werden sollen.
+Diese Variablen können grundsätzlich überall verwendet werden, sie sollten
+aber nur sehr gezielt und möglichst **wenig verwendet** werden.
 
 .. code:: python
 
@@ -49,14 +49,14 @@ auch wenn globale Variablen möglichst **nicht verwendet** werden sollen.
     foo()
 
 
-Der Kritikpunkt hier ist eine `unsaubere Schnittstelle`, denn die Funktion
-verlässt sich darauf, dass es die Variable `aussen` gibt. Gibt es keine Variable mit diesem Namen,
-stürzt das Programm mit einem Laufzeitfehler ab.
-Für eine `saubere Schnittstelle` hätte ein Parameter verwendet werden müssen.
+Der Kritikpunkt an dieser Funktion ist die `unsaubere Schnittstelle`, denn sie verlässt
+sich darauf, dass es eine Variable `aussen` gibt. Gibt es aber keine Variable mit diesem Namen,
+stürzt das Programm mit einem Laufzeitfehler ab. Stattdessen hätte problemlos
+ein Parameter verwendet werden können.
 
-Aber wie so manchmal lässt uns Python hier große Freiheiten, 
-aber im Sinne von einem sicheren, gut verständlichen und gut wartbaren Programmcode
-sollten globale Variablen nur sehr sparsam und wohlüberlegt verwendet werden.
+Aber wie so manchmal lässt uns Python große Freiheiten, aber im Sinne von einem
+sicheren, gut verständlichen und gut wartbaren Programmcode sollten `globale Variablen`
+nur sehr sparsam und wohlüberlegt verwendet werden.
 
 Manchmal werden `globale Variablen` benutzt, wenn ein bestimmter Wert
 an sehr vielen Stellen benötigt wird, aber immer gleich bleibt.
