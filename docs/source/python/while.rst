@@ -18,8 +18,8 @@ vier mal am Bildschirm anzeigen (auch wenn das nicht gerade viel Sinn macht):
 Am Anfang, dem Schleifenkopf, wird eine Bedingung geprüft, wie wir das schon
 von der `if-Anweisung` kennen. Auch hier endet die Zeile mit einem Doppelpunkt
 und die folgenden Anweisungen werden eingerückt.
-Falls die Bedingung richtig war, wird der `Schleifenkörper`, also 
-die eingerückten Anweisungen, ausgeführt.
+Falls die Bedingung richtig war, wird der `Schleifenkörper`, also die
+eingerückten Anweisungen, ausgeführt.
 
 Danach wird die Ausführung des Programms oben am Schleifenkopf
 fortgesetzt und die Bedingung erneut geprüft.
