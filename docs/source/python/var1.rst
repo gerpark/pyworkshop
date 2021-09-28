@@ -1,4 +1,4 @@
-
+﻿
 .. index:: Variable, Name, Datentyp, Anweisung 
 
 ########################
@@ -9,18 +9,18 @@ Variablen gibt es wohl in den allermeisten Programmiersprachen,
 auch wenn sie sich im Detail immer etwas unterscheiden.
 
 Die Idee einer **Variable** ist es, einem Wert / einer Sache, einen selbstgewählten Namen 
-zu geben. Der Wert kann im nachhinein geändert werden, es gibt also einen Variablennamen,
+zu geben. Der Wert kann im nach hinein geändert werden, es gibt also einen Variablennamen,
 mit einem variablen Inhalt (=Wert), der über den sogenannten Variablennamen angesprochen wird.
 
 Mit der folgenden Anweisung wird eine Variable erstellt, oder genauer gesagt,
-d.h. sie wird im ersten Schritt definiert und ihr auch gleich ein ein Wert zugewiesen.
+d.h. sie wird im ersten Schritt definiert und ihr auch gleich ein Wert zugewiesen.
 
 .. code:: python
 
     >>> zahl=5
 
 Wir haben jetzt eine Variable mit dem Namen `zahl` und dem Inhalt `5`.
-Um den Inhalt der Variablen zu überprüfen, geben wir den Namen an:
+Um den Inhalt der Variablen zu überprüfen, geben wir den Namen ein:
 
 .. code:: python
 
@@ -36,7 +36,7 @@ und wir ändern den Wert:
 das Entscheidende bei dieser Anweisung ist das Gleichheitszeichen,
 zuerst wird der Ausdruck rechts vom **=** berechnet,
 oder besser gesagt ausgewertet.
-Das Ergebniss landet dann in der Variablen links vom Gleichheitszeichen.
+Das Ergebnis landet dann in der Variablen links vom Gleichheitszeichen.
 Die Variable selbst wird entweder erstellt oder falls schon vorhanden,
 weiterverwendet.
 
@@ -53,8 +53,8 @@ die Variable mit dem Namen `zahl` hat jetzt den Inhalt 25.
 Für den Namen einer Variablen gibt es bestimmte Regeln: er muss mit einem
 Buchstaben beginnen, dann folgen Buchstaben und Zahlen und eventuell als einzig
 erlaubtes Sonderzeichen ein Unterstrich (_).
-Der erste Buchstabe ist vereinbarungsgemäss ein Kleinbuchstabe und zwischen 
-Gross- oder Kleinbuchstaben wird unterschieden (=case sensitive).
+Der erste Buchstabe ist vereinbarungsgemäß ein Kleinbuchstabe und zwischen 
+Groß- oder Kleinbuchstaben wird unterschieden (=case sensitive).
 
 
 .. _daten-typ:

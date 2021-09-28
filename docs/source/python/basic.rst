@@ -1,4 +1,4 @@
-
+﻿
 .. index:: rechnen, Dezimalzahlen, Fehlermeldung
 
 ##################
@@ -28,10 +28,9 @@ also:
     >>> 1.2 * 3
     3.5999999999999996
 
-Dezimalzahlen, hier auch als Fließkommazahlen bezeichnet,
-sind von sich aus immer ungenau. Und wenn das einfach 
-nur anders aussehen soll, ist das natürlich auch möglich,
-wie wir schon bald sehen werden.
+Dezimalzahlen, die auch als Fließkommazahlen bezeichnet werden,
+sind von sich aus immer ungenau. Das Ergebnis schöner aussehen
+zu lassen, ist nicht schwer, wie wir schon bald sehen werden.
 
 Aber jetzt geben wir mal was anderes ein:
 
@@ -71,8 +70,8 @@ oho - und hierbei:
         ...
         TypeError: must be str, not int
 
-Diese Fehlermeldung deutet auf das Thema `Datentypen`, es bedeutet,
-daß hier ein falscher Datentyp verwendet wurde.
-"hallo" ist eine Zeichenkette, -ein `String`  (=str) und hierzu
+Diese Fehlermeldung deutet auf das Thema `Datentypen`, und besagt,
+dass hier ein falscher Datentyp verwendet wurde.
+"hallo" ist eine Zeichenkette, ein `String`  (=str) und hierzu
 könnte ein weiterer String, aber keine `ganze Zahl` (=int) addiert werden.
 Wie müsste es heißen ?

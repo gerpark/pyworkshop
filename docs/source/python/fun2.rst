@@ -13,8 +13,8 @@ Prozedur oder im Falle von Python eben Funktion.
 
 Auf diese Weise kann Programmcode (und Speicher) gespart werden
 und das Programm wird zudem übersichtlicher.
-Funktionen enthalten häufig Parameter, mit denen die Funktion
-flexibler eingesetzt werden kann.
+Funktionen enthalten häufig Parameter, um die Funktion
+flexibler einsetzten zu können.
 Außerdem ist es häufig die Aufgabe einer Funktion ein bestimmtes 
 Ergebnis zu ermitteln, das dann an die Stelle zurückgeliefert wird,
 an der die Funktion aufgerufen wurde.
@@ -33,7 +33,7 @@ damit wird sozusagen ihr Bauplan erstellt. Der Name der Funktion beginnt mit ein
 gelten dieselben Regeln, wie für die Namen von Variablen.
 
 Der Funktionskopf beginnt mit dem Schlüsselwort **def** und endet mit Doppelpunkt.
-Die folgenden Anweisungen sind alle eingerückt (wie immer nach einem
+Die darauf folgenden Anweisungen sind alle eingerückt (wie immer nach einem
 Doppelpunkt) und bilden den Funktionskörper.
 
 Wir beginnen schrittchenweise mit einem kleinen Beispiel, in dem wir den Flächeninhalt eines Kreises berechnen.
@@ -122,7 +122,7 @@ Für die **Zuordnung** zwischen den Parametern (Variablen im Funktionskopf) und 
 Argumenten, das sind Variablen oder Werte beim Aufruf der Funktion,
 gibt es mehrere Möglichkeiten.
 
-Standardmäßig geschieht es über die Reihenfolge, d.h. das erste Argument
+Standardmäßig geschieht das über die Reihenfolge, d.h. das erste Argument
 wird an den ersten Parameter übergeben, und das zweite Argument landet im
 zweiten Parameter u.s.w.
 
