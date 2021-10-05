@@ -1,4 +1,4 @@
-
+﻿
 .. _tutorial-werkzeuge:
 
 .. index:: Python, Code, Editor, Code-Editor, IDE, IDLE
@@ -40,8 +40,8 @@ Code-Editor
 
 Zum Programmieren ist auch immer ein Editor notwendig, das ist das Programm
 mit dem der eigentliche Programmtext geschrieben wird.
-Der Programmtext, also der Code, besteht nur aus 'plain Text', d.h. der 
-Text enthält keine Formatierungen, wie wir sie aus einer Textverarbeitung
+Der Programmtext, also der (Programm)Code, besteht nur aus 'plain Text', d.h. der 
+Text enthält keine Formatierungen, wie wir es aus einer Textverarbeitung
 wie MS-Word / Libreoffice etc. kennen.
 Und `auch hier <https://tutorial.djangogirls.org/de/code_editor>`_
 gibt es zu diesem Thema wieder eine gute Beschreibung.
@@ -55,7 +55,7 @@ IDLE
 
 Zum Programmieren sind immer mehrere Programmwerkzeuge notwendig, häufig werden diese
 Werkzeuge zu einer sogenannten *Entwicklungsumgebung* zusammengefasst.
-Der allgemeinen Akbkürzung dafür heißt IDE und steht für
+Der allgemeinen Abkürzung dafür heißt IDE und steht für
 `Integrierte Entwicklungsumgebung <https://de.wikipedia.org/wiki/Integrierte_Entwicklungsumgebung>`_,
 Für Python gibt es eine Reihe von IDE's, eine - nämlich die *IDLE* ist 
 ein fester Bestandteil einer Python Installation.
@@ -91,8 +91,8 @@ und gegebenenfalls auch abgeändert werden.
 Programmieren
 ^^^^^^^^^^^^^
 
-Zum Programmieren starten wir als erstes den :ref:`Editor<code-editor>`.
-Dazu rufen wir im Menu unter *File* den Unterpunkt *New File* auf und erhalten
+Um ein Programm zu erstellen wir als erstes den :ref:`Editor<code-editor>`.
+Dazu rufen wir im Menü unter *File* den Unterpunkt *New File* auf und erhalten
 dann ein neues Fenster, - das Editorfenster, in das wir unsere Programmanweisungen schreiben können .
 
 .. figure:: pics/idle_02.png
@@ -101,9 +101,9 @@ dann ein neues Fenster, - das Editorfenster, in das wir unsere Programmanweisung
 
 Im Kopfteil des Fensters steht noch „Untitled*“, da der Inhalt des Editorfensters noch nicht in einer Datei gespeichert wurde.
 Nachdem ich meinen Programmtext  (Programm Code) eingegeben habe, speichere ich ihn in einer Datei ab.
-Dies geschieht wieder im Menu unter *File* und dann dem Unterpunkt *Save*. Das es eine neue Datei war,
-wählen oder erstellen wir ein Verzeichniss und vergeben einen passenden Dateinamen.
-Der gewählte Dateiname wird danach in der Kopfzeile des Editorfenster angzeigt.
+Dies geschieht wieder im Menü unter *File* und dann dem Unterpunkt *Save*. Das es eine neue Datei war,
+wählen oder erstellen wir ein Verzeichnis und vergeben einen passenden Dateinamen.
+Der gewählte Dateiname wird danach in der Kopfzeile des Editorfenster angezeigt.
 
 
 .. figure:: pics/idle_03.png
@@ -113,7 +113,7 @@ Der gewählte Dateiname wird danach in der Kopfzeile des Editorfenster angzeigt.
 Jetzt müssen wir unser Programm nur noch ausprobieren. Dazu öffne ich im Editor Fenster 
 Menu unter *Run* den Unterpunkt *Run Module*. 
 Alle Ausgaben des Programms werden jetzt im Fenster mit der „Python Shell“ angezeigt, dort steht
-jetzt allso "Hello World". Sollte es einen Fehler gegeben haben, und was ich immer wieder betonen muss:
+jetzt all so "Hello World". Sollte es einen Fehler gegeben haben, und was ich immer wieder betonen muss:
 "Fehler sind unsere Freunde", werden sie ebenfalls in diesem Fenster ausgegeben.
 
 Nachdem die Datei einmal erstellt wurde, können wir den geänderten Programmcode mit der F5-Taste 

@@ -1,7 +1,7 @@
-
+﻿
 .. _liste:
 
-.. index:: list, liste, Index, aggregierter Datentyp, zusammengesetze Datentypen, array, vector
+.. index:: list, liste, Index, aggregierter Datentyp, zusammengesetzte Datentypen, array, vector
 
 #################
 Der Datentyp list 
@@ -13,7 +13,7 @@ sind z.B. auch als `Sammel-Datentypen` bekannt oder ich bezeichne sie gern
 als `zusammengesetzte Datentypen`. 
 
 Eine Variable kann auch aus mehreren Teilen bestehen, oder besser mehrere Elemente enthalten.
-Jede Computersprache kennt etwas in dieser Art, wie immmer, mit unterschiedlichen Bezeichnungen
+Jede Computersprache kennt etwas in dieser Art, wie immer, mit unterschiedlichen Bezeichnungen
 und Ausprägungen (array, vector, ...).
 
 In Python ist hierfür die **Liste** der prominenteste Vertreter, aber es gibt 

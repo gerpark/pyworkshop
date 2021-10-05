@@ -12,7 +12,7 @@ Wie wird jetzt der Ablauf des Programms gesteuert, d.h. wie kann festgelegt
 werden, was als nächstes im Programmablauf ausgeführt werden soll.
 
 Dazu gibt es die `If-Anweisung`, die mit dem Schlüsselwort **if**
-beginnt, dann folgt die Bedingung (der *boolsche Ausdruck*)
+beginnt, dann folgt die :ref:`Bedingung <bool-expression>` (der *boolsche Ausdruck*) 
 und am Ende steht ein **Doppelpunkt**:
 
 Wir erstellen eine Datei z.B. quiz.py und schreiben:

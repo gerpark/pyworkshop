@@ -58,7 +58,7 @@ sich das Ergebnis in einer Variablen merken und sich dann den Inhalt der Variabl
 
 
 Um Fließkommazahlen auf eine bestimmte Zahl nach dem Komma zu runden gibt es die Funktion ``round``,
-bei der 2 Argument möglich sind.  Das erste Argument ist die eigentliche Zahl, im 2ten Argument
+bei der 2 Argumente möglich sind.  Das erste Argument ist die eigentliche Zahl, im 2ten Argument
 kann die gewünschte Zahl an Nachkommastellen angegeben werden: 
 
 .. code:: python

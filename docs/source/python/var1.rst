@@ -6,14 +6,16 @@ Variablen und Datentypen
 ########################
 
 Variablen gibt es wohl in den allermeisten Programmiersprachen,
-auch wenn sie sich im Detail immer etwas unterscheiden.
+auch wenn sie sich im Detail häufig etwas unterscheiden.
 
 Die Idee einer **Variable** ist es, einem Wert / einer Sache, einen selbstgewählten Namen 
-zu geben. Der Wert kann im nach hinein geändert werden, es gibt also einen Variablennamen,
-mit einem variablen Inhalt (=Wert), der über den sogenannten Variablennamen angesprochen wird.
+zu geben. Der Inhalt (=Wert) der Variablen kann  im nach hinein geändert werden.
+Es gibt also einen Variablennamen, mit einem variablen Inhalt (=Wert), der über den
+sogenannten `Variablennamen` angesprochen wird.
+
 
 Mit der folgenden Anweisung wird eine Variable erstellt, oder genauer gesagt,
-d.h. sie wird im ersten Schritt definiert und ihr auch gleich ein Wert zugewiesen.
+sie wird zum einen definiert und bekommt zum anderen auch noch einen Wert zugewiesen.
 
 .. code:: python
 
@@ -76,14 +78,14 @@ durch einen String geteilt werden.
     TypeError: unsupported operand type(s) for /: 'int' and 'str'
 
 
-Aber eine Variable kann durchaus für einen anderen *Datentyp* verwendet werden:
+Aber eine Variable kann im weiteren Verlauf durchaus für einen anderen *Datentyp* verwendet werden:
 
 .. code:: python
 
     >>> zahl = "Birne"
 
 
-Bei unseren ersten Experimenten haben wir jetzt folgende *Datentypen* kennengelernt:
+Bei unseren ersten Experimenten haben wir folgende *Datentypen* kennengelernt:
 
 
 * Ganze Zahlen

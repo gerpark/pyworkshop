@@ -1,6 +1,8 @@
 ﻿
 .. index:: bool
 
+.. _bool-expression:
+
 ###########
 Bedingungen
 ###########
@@ -30,8 +32,8 @@ Werte richtig (True) oder falsch (False) annehmen.
     False
 
 Um zu prüfen, ob 2 Dinge den gleichen Wert haben, verwenden wir **==** , denn
-das einfache Gleichheitszeichen hat ja die Bedeutung, dass ein Wert einer
-Variablen zugewiesen wird.
+das einfache Gleichheitszeichen hat ja die Bedeutung, dass einer
+Variablen ein Wert zugewiesen wird.
 
 .. code:: python
 

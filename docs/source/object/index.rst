@@ -29,3 +29,4 @@ die Sprache effektiv nutzen zu können, mit dem Konzept der Objektorientierung v
     o_allgemein.rst
     nutzen.rst
     namen.rst
+    class.rst

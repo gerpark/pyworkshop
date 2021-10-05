@@ -5,9 +5,10 @@
 Der Taschenrechner
 ##################
 
-Als erstes versuchen wir auf der Kommandozeile etwas zu rechnen,
-denn - ist es ein Wunder - 
-die Programmiersprache Python kann auch rechnen !
+
+
+Als erstes versuchen wir auf der :ref:`Kommandozeile <cmd-line>` etwas zu rechnen,
+denn - ist es ein Wunder - die Programmiersprache Python kann auch rechnen !
 
 .. code:: python
 
@@ -21,7 +22,7 @@ Wie könnte es heißen, wenn wir "1,2 * 3" rechnen wollen:
     >>> 1,2 * 3
     (1,6)
 
-also:
+??? - das Komma ist auf Englisch ein Punkt, also:
 
 .. code:: python
 
@@ -29,7 +30,7 @@ also:
     3.5999999999999996
 
 Dezimalzahlen, die auch als Fließkommazahlen bezeichnet werden,
-sind von sich aus immer ungenau. Das Ergebnis schöner aussehen
+sind in Programmiersprachen immer ungenau. Das Ergebnis schöner aussehen
 zu lassen, ist nicht schwer, wie wir schon bald sehen werden.
 
 Aber jetzt geben wir mal was anderes ein:
@@ -42,7 +43,7 @@ Aber jetzt geben wir mal was anderes ein:
             hallo
         NameError: name 'hallo' is not defined
 
-Dies führt zu einer Fehlermeldung, nicht weiter schlimm,
+Dies führt zu einer Fehlermeldung, das ist nicht weiter schlimm,
 es ist nur eine Erklärung, was schief gelaufen ist.
 Das wichtigste steht unten, nämlich dass der Name `hallo`
 nicht definiert ist.
@@ -73,5 +74,5 @@ oho - und hierbei:
 Diese Fehlermeldung deutet auf das Thema `Datentypen`, und besagt,
 dass hier ein falscher Datentyp verwendet wurde.
 "hallo" ist eine Zeichenkette, ein `String`  (=str) und hierzu
-könnte ein weiterer String, aber keine `ganze Zahl` (=int) addiert werden.
+könnte zwar ein weiterer String, aber keine `ganze Zahl` (=int) addiert werden.
 Wie müsste es heißen ?

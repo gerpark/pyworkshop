@@ -1,4 +1,4 @@
-
+﻿
 .. index:: Kommandozeile, Konsole, Shell, Terminal, GUI, CLI, cmd 
 
 .. _cmd-line:
@@ -17,7 +17,7 @@ Computer zuzugreifen, d.h. wir bewegen die Maus auf dem Bildschirm
 und klicken dort auf Symbole oder ähnliches.
 Ein solches Grafical-User-Interface wird abgekürzt häufig als *GUI* bezeichnet.
 
-Bevor es hochauflösende Bildschirm gab, fand die Kommunication (oder vielleicht bessser Interaktion)
+Bevor es hochauflösende Bildschirm gab, fand die Kommunikation (oder vielleicht bessser Interaktion)
 mit dem Computer über eine Kommandozeile, - ein Commandline Interface ( *CLI* ) statt.
 
 Ein Kommandozeilen Programm erkennt man an der Eingabeaufforderung (= *Prompt* ),
@@ -31,7 +31,7 @@ Diese Art von Programmen haben (wie immer) die unterschiedlichsten
 Bezeichnungen wie z.B. *Konsole*, *Terminal* und *Shell*.
 Jedes Betriebssystem besitzt ein solches Kommandozeilenprogramm und kann darüber 
 angesprochen werden.
-Jetzt könnte man denken, daß das doch eher altmodisch ist, aber ganz im Gegenteil,
+Jetzt könnte man denken, dass das doch eher altmodisch ist, aber ganz im Gegenteil,
 häufig ist die Kommandozeile die viele elegantere und schnellere
 Alternative zu unzähligen Mausklicks.
 
@@ -53,10 +53,14 @@ Der `Prompt` beginnt unter Windows meist dem aktuellen Verzeichnis und endet mit
     
     C:\USERS\OLA>
 
-Jetzt können alle möglichen Befehle eingegeben werden. So ist es möglich sich mit ``cd`` durch das 
-Dateisystem zu bewegen und sich mit ``dir`` den Inhalt von Verzeichnisses anzeigen zu lassen.
+Jetzt können alle möglichen Befehle eingegeben werden. So ist es möglich sich mit ``cd`` durch das Dateisystem zu bewegen und sich mit ``dir`` den Inhalt von Verzeichnisses anzeigen zu lassen.
 Aber dort lassen sich auch Programme wie ``firefox`` oder der ``explorer`` aufrufen.
 
-Und dann gibt es auch das Programm ``python`` mit dem interaktiv Befehle in der Computersprache *python* ausgeführt werden können.
-Damit das Programm ``python`` auf der Kommandozeile gefunden wird, muss bei der Installation zusätzlich
-:ref:`diese Option <myinstallation-hint>` ausgewählt werden.
+Python
+------
+
+Auch für die Programmiersprache `Python` gibt es ein Kommandozeilen Programm, in dem Python interaktiv benutzt
+werden kann. Der `Prompt` sind hier 3 "Größer-Zeichen" und sobald die **>>>** zu sehen sind, werden nur noch gültige
+Python Anweisungen verstanden.
+Damit das Programm ``python`` auf der Windows Kommandozeile gefunden wird,
+muss bei der Installation zusätzlich :ref:`diese Option <myinstallation-hint>` ausgewählt werden.
