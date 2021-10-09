@@ -44,7 +44,7 @@ Datentyp:
     >>> type(12.46)
         <class 'float'>
 
-Datentyp und 'class' sind dasselbe, und der Name des Datentyps ist gleichzeitig der Name der
+Datentyp und ``class`` sind dasselbe, und der Name des Datentyps ist gleichzeitig der Name der
 `Umwandlungsfunktion` zu dem jeweiligen Datentyp.
 
 .. code:: python

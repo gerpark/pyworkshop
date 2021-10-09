@@ -64,9 +64,9 @@ Die *IDLE* ist im Vergleich zu anderen IDE's eine ziemlich einfache *Entwicklung
 aber sie enthält einen für Python gut geeigneten Code-Editor und  
 ist für unsere Anforderungen gut geeignet.
 
-Wenn wir nun die *IDLE* gestartet haben, öffnet sich als erstes ein Fenster mit der 
-Bezeichnung "Python Shell". Das ist prinzipiell die gleiche Interaktive Umgebung, wie wenn 
-wir ``python`` direkt aufgerufen hätten.
+Wenn wir nun die *IDLE* gestartet haben, öffnet sich als erstes ein Fenster
+mit der Bezeichnung "Python Shell". Das ist prinzipiell die gleiche
+`Interaktive Umgebung`, wie wenn wir ``python`` direkt aufgerufen hätten.
 
 
 .. _python-shell:
@@ -91,9 +91,15 @@ und gegebenenfalls auch abgeändert werden.
 Programmieren
 ^^^^^^^^^^^^^
 
-Um ein Programm zu erstellen wir als erstes den :ref:`Editor<code-editor>`.
-Dazu rufen wir im Menü unter *File* den Unterpunkt *New File* auf und erhalten
-dann ein neues Fenster, - das Editorfenster, in das wir unsere Programmanweisungen schreiben können .
+Bevor wir mit dem Programmieren anfangen können, müssen wir unter `MS-Windows`
+ein **eigenes Verzeichnis** für unsere Programme erstellen. Das kann irgendwo sein, aber nicht
+im Verzeichnisbaum der eigentlichen Python-Software. 
+Ein Ordner mit dem Namen `python` unterhalb von `Dokumenten` wäre eine gute Möglichkeit.
+
+
+Um ein Programm zu erstellen brauchen wir als erstes einen :ref:`Editor<code-editor>`.
+Wir wechseln zur Python-Shell zurück und rufen im Menü unter *File* den Unterpunkt *New File* auf.
+Damit erhalten wir ein neues Fenster, - das Editorfenster, in das wir unsere Programmanweisungen schreiben können .
 
 .. figure:: pics/idle_02.png
     :align: left
@@ -101,10 +107,9 @@ dann ein neues Fenster, - das Editorfenster, in das wir unsere Programmanweisung
 
 Im Kopfteil des Fensters steht noch „Untitled*“, da der Inhalt des Editorfensters noch nicht in einer Datei gespeichert wurde.
 Nachdem ich meinen Programmtext  (Programm Code) eingegeben habe, speichere ich ihn in einer Datei ab.
-Dies geschieht wieder im Menü unter *File* und dann dem Unterpunkt *Save*. Das es eine neue Datei war,
-wählen oder erstellen wir ein Verzeichnis und vergeben einen passenden Dateinamen.
-Der gewählte Dateiname wird danach in der Kopfzeile des Editorfenster angezeigt.
-
+Dies geschieht wieder im Menü unter *File* und dann dem Unterpunkt *Save*. Dort wählen wir den eben erstellten Ordner
+aus und vergeben einen passenden Dateinamen, wie z.B. ``hello.py``.
+Der gewählte Dateiname und das Verzeichis werden danach in der Kopfzeile des Editorfensters angezeigt.
 
 .. figure:: pics/idle_03.png
     :align: left
@@ -113,8 +118,8 @@ Der gewählte Dateiname wird danach in der Kopfzeile des Editorfenster angezeigt
 Jetzt müssen wir unser Programm nur noch ausprobieren. Dazu öffne ich im Editor Fenster 
 Menu unter *Run* den Unterpunkt *Run Module*. 
 Alle Ausgaben des Programms werden jetzt im Fenster mit der „Python Shell“ angezeigt, dort steht
-jetzt all so "Hello World". Sollte es einen Fehler gegeben haben, und was ich immer wieder betonen muss:
-"Fehler sind unsere Freunde", werden sie ebenfalls in diesem Fenster ausgegeben.
+jetzt also "Hello World". Und sollte es einen Fehler gegeben haben,
+wird die Fehlermeldung ebenfalls in diesem Fenster ausgegeben.
 
 Nachdem die Datei einmal erstellt wurde, können wir den geänderten Programmcode mit der F5-Taste 
-fast in einem Rutsch speichern und das Programm starten.
+in einem Rutsch speichern und das Programm starten.
