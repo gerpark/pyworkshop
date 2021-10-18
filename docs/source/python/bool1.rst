@@ -58,6 +58,17 @@ so können wir sie z.B. einer Variablen zuweisen:
 
 Und wie können wir den  :ref:`Datentyp <daten-typ>` der Variablen *stimmt* überprüfen?
 
+Hier noch die häufigsten Vergleichs-Operatoren:
+
+.. csv-table::
+   :header: "Vergleichs-Operator", "Bedeutung"
+
+   "<",              "kleiner"
+   "<=",             "kleiner gleich "
+   ">",              "größer"
+   ">=",             "größer gleich "
+   "==",             "gleich "
+   "!=",             "ungleich "
 
 Zu diesem Thema gibt es noch eine Menge zu sagen, aber um den
 Ablauf eines Programms steuern zu können, sind wir jetzt schon 

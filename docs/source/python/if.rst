@@ -28,7 +28,8 @@ Wir erstellen eine Datei z.B. quiz.py und schreiben:
 Falls die Bedingung richtig ist, werden alle Anweisungen (=Anweisungsblock) 
 ausgeführt, die gleich weit eingerückt stehen.
 In der Regel wird um 4 Leerzeichen eingerückt und ein für Python gut 
-geeigneter Editor, wird ein "Tab"-Zeichen entsprechend ersetzen.
+geeigneter Editor, wird ein :kbd:`<Tab>`-Zeichen entsprechend ersetzen.
+
 
 Die *if-Anweisung* kann mit **else** und **elif** (=else if) erweitert werden.
 Sobald eine der Bedingungen erfüllt ist, werden die übrigen Bedingungen
@@ -59,11 +60,8 @@ und jetzt können wir die richtigen Hinweise geben:
     else:
         print("falsch, es sind weniger Tage.")
 
-die Funktion ``print`` steht wieder ganz links und wird damit in jedem Fall ausgeführt.
-
-.. code:: python
-
+    # die Funktion print() steht wieder ganz links und wird damit in jedem Fall ausgeführt.
     print("Programm Ende")
- 
+
 Der Programmcode steht also immer ganz links, oder nach bestimmten Regeln
 nach rechts eingerückt. 

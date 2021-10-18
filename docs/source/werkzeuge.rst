@@ -121,5 +121,5 @@ Alle Ausgaben des Programms werden jetzt im Fenster mit der „Python Shell“ a
 jetzt also "Hello World". Und sollte es einen Fehler gegeben haben,
 wird die Fehlermeldung ebenfalls in diesem Fenster ausgegeben.
 
-Nachdem die Datei einmal erstellt wurde, können wir den geänderten Programmcode mit der F5-Taste 
+Nachdem die Datei einmal erstellt wurde, können wir den geänderten Programmcode mit der :kbd:`<F5>`-Taste
 in einem Rutsch speichern und das Programm starten.

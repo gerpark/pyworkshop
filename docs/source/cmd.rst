@@ -44,7 +44,7 @@ Die Windows Kommandozeile
 -------------------------
 
 wird manchmal auch als Dos-Box bezeichnet. Der eigentliche Programmname heißt ``cmd.exe``.
-Um es aufzurufen suchen wir z.B. das Programm cmd oder wir drücken die Windowstaste zusammen mit einem 'R' (:kbd:`Windows-R`)
+Um es aufzurufen suchen wir z.B. das Programm cmd oder wir drücken die Windowstaste zusammen mit einem 'R', - :kbd:`<Windows>-R` ,
 und rufen von dort ``cmd.exe`` auf. 
 Im Detail ist das auch wieder bei `den Django Girls  <https://tutorial.djangogirls.org/de/intro_to_command_line>`_ beschrieben.
 Der `Prompt` beginnt unter Windows meist dem aktuellen Verzeichnis und endet mit einem `>`.
