@@ -30,3 +30,4 @@ die Sprache effektiv nutzen zu können, mit dem Konzept der Objektorientierung v
     nutzen.rst
     namen.rst
     class.rst
+    inherit.rst

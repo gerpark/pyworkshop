@@ -88,7 +88,7 @@ Ein solche Methode wird (in allen OO-Sprachen) als **Konstruktor** bezeichnet.
 
 Wenn also in der Klasse eine Methode mit dem dem festgelegten Namen ``__init__()`` 
 definiert wurde (zwei Unterstriche), dann wird diese Methode einmal
-beim Erstellen eines jeden Objekts aufgerufen.
+beim Erstellen eines jeden Objekts ausgeführt.
 Das ist der richtige Ort, um die Instanzvariablen mit einem
 Wert vorzubelegen. Grundsätzlich würde ich empfehlen, 
 alle Instanzvariablen schon im Konstruktor anzulegen.
@@ -135,7 +135,7 @@ dass z.B. für jedes Tier eine Tierart festgelegt werden muss (mandatory).
 Namensraum
 ==========
 
-Setter und getter Methoden sind die klassische Art um 
+Setter- und Getter-Methoden sind die klassische Art um 
 den Wert von Instanzvariablen zu setzen oder zu ermitteln.
 Natürlich könnten die Methodennamen auch anders heißen,
 aber set...() und get...() haben sich eingebürgert.
@@ -165,7 +165,7 @@ nur über Methoden zugegriffen werden, in Python ist es aber auch
 direkt über den Objektnamen möglich.
 Das Objekt bildet dabei sozusagen einen eigenen **Namensraum**.
 
-(bei gleicher Klassendefinition) kann ich das Futter 
+(bei der Klassendefinition weiter oben) könnte ich das Futter 
 auch direkt ermitteln (`elch.futter`):
 
 .. code:: python
@@ -178,8 +178,7 @@ auch direkt ermitteln (`elch.futter`):
 Methoden
 ========
 
-Soll innerhalb einer Methode eine andere
-Methode aufgerufen werden,
+Soll innerhalb einer Methode eine andere Methode aufgerufen werden,
 geschieht in der üblichen Weise, links 
 vom Punkt das Objekt und rechts die Methode:
 
