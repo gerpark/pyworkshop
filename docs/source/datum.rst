@@ -37,7 +37,7 @@ Jetzt möchte ich vielleicht wissen, was das aktuelle Datum ist:
     >>> d1 = date.today()
     >>> print(d1)
 
-Und zum 15ten Januar 2019 komme ich so:
+Und zum 15. Januar 2019 komme ich so:
 
 .. code:: python
 
@@ -51,7 +51,7 @@ die ich direkt verwenden kann.
 
     >>> d2.month
 
-Ein häufige Anforderung ist es ein Datum in einen String, also in ein
+Eine häufige Anforderung ist es ein Datum in einen String, also in ein
 bestimmtes Format zu überführen, wie das z.B. auf Deutsch verbreitet ist.
 
 .. code:: python
@@ -60,7 +60,7 @@ bestimmtes Format zu überführen, wie das z.B. auf Deutsch verbreitet ist.
 
 Für Zeitdifferenzen ist das Module **timedelta** zuständig.
 Die Klasse timedelta kennt die Attribute ``days`` und ``seconds``,
-mit denen sich ja jede Zeitdifferenzen abbilden läßt.
+mit denen sich ja jede Zeitdifferenz abbilden läßt.
 
 .. code:: python
 
@@ -91,7 +91,7 @@ Bei Zeitdifferenzen geht es jetzt natürlich nicht nur um Tage, sondern
 auch um Stunden und Minuten.
 
 Wir hatten zuvor aus einem Datums-Objekt einen String erzeugt. 
-Für die umgekehrt Richtung benötigen wir aber das datetime - Module.
+Für die umgekehrte Richtung benötigen wir aber das datetime - Module.
 
 So kann hier aus einem String mit einer Zeitangabe ein datetime-Objekt erzeugt werden:
 
@@ -102,8 +102,4 @@ So kann hier aus einem String mit einer Zeitangabe ein datetime-Objekt erzeugt w
 
 Für die Zeitangaben gibt es noch einige **andere Kürzel**, hier also
 das Link zu den `Format Kürzeln <https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes>`_. 
-
-Und bevor ihr zu lange probiert, so einfach aus einem datetime-Objekt ein date-Objekt zu erzeugen
-funktioniert nicht und für die umgekehrte Richtung gilt das natürlich auch. Mit 'so einfach' ist
-ein 'casting' gemeint, also etwas wie ``datetime(date(2020,12,1))`` geht nicht, aber
-es gibt ja andere Möglichkeiten, bei denen die Konvertierung dann auch eindeutig ist.
+Und versucht nicht aus einem date-Objekt ein datetime-Objekt zu erzeugen, das ist so nicht vorgesehen.

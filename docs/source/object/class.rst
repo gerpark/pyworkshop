@@ -178,9 +178,8 @@ auch direkt ermitteln (`elch.futter`):
 Methoden
 ========
 
-Soll innerhalb einer Methode eine andere Methode aufgerufen werden,
-geschieht in der üblichen Weise, links 
-vom Punkt das Objekt und rechts die Methode:
+Soll innerhalb einer Methode eine andere Methode der gleichen Klasse aufgerufen werden,
+geschieht das in der üblichen Weise, links vom Punkt das Objekt und rechts die Methode:
 
 .. code:: python
 
