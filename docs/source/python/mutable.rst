@@ -30,8 +30,8 @@ zurückgebe.
         res = "<" + text + ">"
         return  res
 
-(Ich könnte den Parameter, der ja eine lokale Variable ist, auch ändern,
-aber das wäre dann nur lokal, außerhalb der Funktion würde sich der Wert nicht ändern.)
+(Ich könnte den Parameter, der ja eine lokale Variable ist, auch ändern, aber das
+wäre dann nur lokal wirksam, außerhalb der Funktion würde sich der Wert nicht ändern.)
 
 Wenn ich aber eine Liste, also einen `veränderlichen Datentyp` an die Funktion
 übergebe, kann die Liste in der Funktion geändert werden !
