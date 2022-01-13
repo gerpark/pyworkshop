@@ -22,7 +22,11 @@ mit der Python auch auf der *Windows-Kommandozeile* ausgeführt werden kann.
 Dazu muss ein Kästchen mit einer Bezeichnung wie "Add Python 3.x to PATH" oder "Add Python to
 your environment variables" ausgewählt werden.
 
+.. figure:: pics/installation.png
+    :align: left
+    :figwidth: 100%
+
 Auf Apple Computern und auch auf Linux muss eventuell noch die graphische Komponente (Tk)
 installiert werden, die z.B für die (Mini)Entwicklungsumgebung IDLE benötigt wird.
-Die Installation ist übrigens auch wieder sehr gut
+Die Installation auf den verschiedenen Betriebssystemen ist übrigens auch wieder sehr gut
 in den Tutorials der `Django Girls <https://tutorial.djangogirls.org/de/installation/#python>`_ erklärt.

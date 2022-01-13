@@ -55,9 +55,9 @@ weniger als es Parameter in der Definition der Methode gibt.
 Die Dinge, die bei jedem einzelnen Objekt einen eigenen Wert haben können,
 werden in Attributen, oder besser **Instanzvariablen** gespeichert.
 
-Zu erkennen sind diese Variablen daran, dass sie mit einem ``self`` beginnen.
-Sie haben den großen Vorteil, dass sie innerhalb der Klasse,
-in allen Methoden einfach so verwendet werden können.
+Zu erkennen sind Instanz-Variablen daran, dass sie mit einem ``self`` beginnen.
+Sie haben den großen Vorteil, dass sie in allen anderen Methoden derselben Klasse
+einfach weiterverwendet werden können.
 
 .. code:: python
 
@@ -82,11 +82,11 @@ Was passiert, wenn wir die Methode ``sprich()`` verwenden, bevor wir
 die Methode ``setfutter()`` aufgerufen haben?
 
 Es gibt einen Fehler, da die Instanzvariable noch nicht definiert wurde.
-Dass läßt sich aber leicht vermeiden, denn wie bei allen objektorienten Sprachen,
+Dass läßt sich aber leicht vermeiden, denn wie bei allen objektorientierten Sprachen,
 gibt es die Möglichkeit, ein Objekt zu initialisieren.
 Ein solche Methode wird (in allen OO-Sprachen) als **Konstruktor** bezeichnet.
 
-Wenn also in der Klasse eine Methode mit dem dem festgelegten Namen ``__init__()`` 
+Wenn also in der Klasse eine Methode mit dem dem festgelegten Namen ``__init__(...)`` 
 definiert wurde (zwei Unterstriche), dann wird diese Methode einmal
 beim Erstellen eines jeden Objekts ausgeführt.
 Das ist der richtige Ort, um die Instanzvariablen mit einem
@@ -109,9 +109,9 @@ alle Instanzvariablen schon im Konstruktor anzulegen.
     elch.sprich()
 
 
-Das Schlüsselwort ``None``  bedeutet, dass der Wert noch nicht festgelegt ist,
-aber die Instanzvariable ``self.gewicht`` ist schon definiert
-und das Programm stürzt nicht mehr ab.
+Das Schlüsselwort ``None``  bedeutet, dass der Wert noch nicht festgelegt ist.
+Die Instanzvariable ``self.gewicht`` ist schon definiert und kann verwendet werden
+ohne dass das Programm abstürzt.
 
 Der Konstruktor kann auch **Parameter** haben und damit lässt sich sicherstellen,
 dass z.B. für jedes Tier eine Tierart festgelegt werden muss (mandatory).
