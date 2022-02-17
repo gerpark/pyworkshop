@@ -14,7 +14,7 @@ Tatsächlich aber ist ein Modul nichts anderes als ein Python Script.
 Ist euch die Bezeichnung in der IDLE aufgefallen, mit
 der wir ein Programm starten, - `Run Module`!
 
-Zuerst schauen wir uns an, wie ein Python Script importiert,
+Zuerst schauen wir uns an, wie ein Python-Script importiert,
 also verfügbar gemacht werden kann.
 
 Module importieren
@@ -110,7 +110,10 @@ werden, sobald das Modul (in welcher Variante auch immer) importiert wurde.
 eigene Module nutzen
 --------------------
 
-Vielleicht einfach ein kurzes Beispiel:
+Module sind also einfach Python-Scripte,
+d.h. jedes Python-Script lässt sich auch importieren.
+
+Vielleicht ein kurzes Beispiel:
 Wir erstellen eine Datei mit dem Namen `tools.py` :
 
 .. code:: python
@@ -126,7 +129,7 @@ Wir erstellen eine Datei mit dem Namen `tools.py` :
 Und wir erstellen im selben Verzeichnis eine Datei mit
 dem Namen `main.py`.
 
-Jetzt können wir das Script tools.py einfach importieren,
+In  `main.py` können wir das Script tools.py einfach importieren,
 dabei ist der Modulname einfach der Name der Datei ohne die Endung.
 
 .. code:: python
@@ -134,7 +137,10 @@ dabei ist der Modulname einfach der Name der Datei ohne die Endung.
     import tools
     print("Programm-Ende")
 
-Siehe da, auch der Aufruf der Funktion wird ausgeführt.
+Wenn wir diese Datei ausführen, stellen wir fest, dass nicht
+nur die Definition von plus19() importiert wurde, sondern
+dass plus19() auch gleich ausgeführt wird.
+
 Aber jetzt probieren wir, ob die Funktion und die Variable
 auch genutzt werden können:
 
@@ -152,9 +158,9 @@ importiert oder nicht ?
 In der Regel werden aus Modulen nur die Definitionen benötigt. Beim Entwickeln und Testen eines Moduls,
 ist es aber praktisch, wenn die jeweiligen Funktionen auch im selben Script aufgerufen werden können.
 
-Dafür gibt es eine interne Variable `__name__` (2 Unterstriche), die wenn das Script importiert wurde,
+Hierfür gibt es eine interne Variable `__name__` (je 2 Unterstriche), die wenn das Script importiert wurde,
 den Namen des Moduls enthält. Falls das Script aber direkt aufgerufen wurde, sozusagen das Hauptprogramm
-ist, enthält die Variable den Wert \'__main__\'.
+ist, enthält die Variable stattdessen den Wert \'__main__\'.
 
 Ein Script/Modul, dass diese Unterscheidung nutzen möchte, sieht dann so aus:
 
@@ -168,4 +174,4 @@ Ein Script/Modul, dass diese Unterscheidung nutzen möchte, sieht dann so aus:
     if __name__ == "__main__":
         result = plus19(100)
 
-d.h. wenn das Script importiert wurde, wird die Funktion `plus19` nicht aufgerufen.
+d.h. wenn das Script/Modul importiert wurde, wird die Funktion `plus19` nicht aufgerufen.
