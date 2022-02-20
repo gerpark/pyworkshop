@@ -58,7 +58,7 @@ Ohne Parameter bekommen wir eine Liste der aktuell verwendeten Namen angezeigt,
 das sind einige vor eingestelle Dinge, aber eben auch `math`, den Namen 
 unseres eben importierten Moduls.
 
-Wenn wir jetzt die Variante nehmen, die wir für das Turtle Module benutzt haben,
+Wenn wir jetzt die Variante nehmen, die wir für das Turtle Modul benutzt haben,
 kann auf den Modulnamen verzichtet werden:
 
 .. code:: python

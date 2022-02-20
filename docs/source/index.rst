@@ -13,7 +13,7 @@ von Gerhard Sachs
 
 Dieses Dokument wird kontinuierlich weiterbearbeitet.
 
-Version 1.91 vom 13 Januar 2022
+Version 1.92 vom 17 Februar 2022
 
 Und hier noch ein Link mit ein bisschen was zu `Python, dem Workshop und mir <http://www.ortrun-dieterich.de/workshop.html>`_ .
 
