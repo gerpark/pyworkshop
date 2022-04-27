@@ -45,7 +45,7 @@ SQL-Anweisungen so zusammen gefasst werden, dass entweder **alle** Änderungen
 **oder keine** Änderung durchgeführt wird. So wird sichergestellt, dass bei
 einem Buchungssystem z.B. ein Sitzplatz auch nur einmal verkauft wird.
 
-Jedes Datenbanksystem enthält ein eigenes grafisches Programm
+Datenbanksysteme haben in der Regel ein eigenes grafisches Programm
 mit dem komfortabel Daten verwaltet, angesehen und geändert werden können,
 und natürlich auch SQL-Befehle direkt eingeben werden können.
 
@@ -53,15 +53,15 @@ Es gibt aber auch Programme wie den DbVisualizer, der für mehrere
 Datenbanksysteme benutzt werden kann und z.B. auch bei de Zeitschrift
 `chip <https://www.chip.de/downloads/DbVisualizer_33173230.html>`_ zu erhalten ist.
 
-Jedes Datenbanksystem kennt aber auch immer ein Kommandozeilenprogramm, das z.B. für Administrative Zwecke
-verwendet wird und in dem SQL-Skripte ausgeführt werden können.
+Jedes Datenbanksystem enthält aber auch ein Kommandozeilenprogramm, das z.B. für Administrative Zwecke
+verwendet wird und in dem auch SQL-Scripte ausgeführt werden können.
 bei `SQLite` ist ein solches 'Command-line-tool' `hier <https://www.sqlite.org/download.html>`_ zu finden.
 
 In der Regel wird aber von einer Anwendung aus auf eine Datenbank zugegriffen, d.h. es gibt
 für die meisten Programmiersprachen die Möglichkeit sich mit Datenbanken zu verbinden und dann
 dort SQL auszuführen.
 
-Wir werden hier zu einem von `Python` aus, eine SQLite Datenbank verwenden,
+Wir werden hier zum einem von `Python` aus, eine SQLite Datenbank verwenden,
 aber zusätzlich auch ein spezielles grafisches Tool für  `SQLite`  nutzen. Die Software ist Opensource und damit auch auf allen
 Betriebssystem-Plattformen kostenlos verfügbar: `DB-Browser für SQLite <https://sqlitebrowser.org/dl/>`_. 
 
