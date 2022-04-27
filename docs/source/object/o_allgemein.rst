@@ -56,6 +56,8 @@ für uns keine Bedeutung und wird auch immer unterschiedlich sein.
 Wie werden Objekte verwendet ?
 ------------------------------
 
+.. _oop-usage1:
+
 Die übliche Art Objekte zu nutzen geschieht mit Hilfe von **Methoden**.
 Funktionen und Methoden sind sich sehr ähnlich. Der Unterschied besteht
 darin, dass eine Funktion "einfach so" aufgerufen wird, während eine

@@ -77,20 +77,22 @@ einfach weiterverwendet werden können.
 Konstruktor
 ===========
 
-Allerdings hat die Sache jetzt noch ein Hacken.
-Was passiert, wenn wir die Methode ``sprich()`` verwenden, bevor wir 
+Allerdings gibt es bei diesem Programm noch ein Problem, denn
+was passiert, wenn wir die Methode ``sprich()`` verwenden, bevor wir 
 die Methode ``setfutter()`` aufgerufen haben?
 
-Es gibt einen Fehler, da die Instanzvariable noch nicht definiert wurde.
+Es gibt einen Fehler, denn die Instanzvariable ``self.futter`` wurde noch nicht definiert, der entsprechende Programmcode wurde 
+noch nicht durchlaufen.
+
 Dass läßt sich aber leicht vermeiden, denn wie bei allen objektorientierten Sprachen,
-gibt es die Möglichkeit, ein Objekt zu initialisieren.
+gibt es die Möglichkeit ein Objekt zu initialisieren.
 Ein solche Methode wird (in allen OO-Sprachen) als **Konstruktor** bezeichnet.
 
-Wenn also in der Klasse eine Methode mit dem dem festgelegten Namen ``__init__(...)`` 
+Wenn also in einer Klasse eine Methode mit dem dem festgelegten Namen ``__init__(...)`` 
 definiert wurde (zwei Unterstriche), dann wird diese Methode einmal
 beim Erstellen eines jeden Objekts ausgeführt.
-Das ist der richtige Ort, um die Instanzvariablen mit einem
-Wert vorzubelegen. Grundsätzlich würde ich empfehlen, 
+Das ist der richtige Ort, um die Instanzvariablen zu initialisieren.
+Grundsätzlich würde ich empfehlen, 
 alle Instanzvariablen schon im Konstruktor anzulegen.
 
 .. code:: python
@@ -98,7 +100,7 @@ alle Instanzvariablen schon im Konstruktor anzulegen.
     class Tier():
         def __init__(self):
             print("Konstruktor Tier")
-            # eine Instanzvariable definieren und mit einem Wert vorbelegen
+            # Instanzvariablen initialisieren
             self.futter = "alles"
             self.gewicht = None
 
@@ -110,11 +112,11 @@ alle Instanzvariablen schon im Konstruktor anzulegen.
 
 
 Das Schlüsselwort ``None``  bedeutet, dass der Wert noch nicht festgelegt ist.
-Die Instanzvariable ``self.gewicht`` ist schon definiert und kann verwendet werden
+Die Instanzvariable ``self.gewicht`` ist damit definiert und kann verwendet werden
 ohne dass das Programm abstürzt.
 
 Der Konstruktor kann auch **Parameter** haben und damit lässt sich sicherstellen,
-dass z.B. für jedes Tier eine Tierart festgelegt werden muss (mandatory).
+dass z.B. für jedes Tier eine Tierart festgelegt werden muss (=mandatory).
 
 .. code:: python
 

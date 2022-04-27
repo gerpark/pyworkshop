@@ -54,7 +54,7 @@ nicht geändert werden kann, darüber hinaus benötigt ein Tuple weniger Speiche
 und ist auch sonst schneller zu verarbeiten.
 
 Werden bei einer Aufzählung (Kommas) die Begrenzungszeichen weggelassen, 
-so führt das auch zu einem **Tuple****:
+so führt das auch zu einem **Tuple**:
 
 .. code:: python
 

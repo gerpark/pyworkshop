@@ -11,10 +11,10 @@ Programme können auch aus mehreren Dateien bestehen.
 Wenn wir in unserem (Haupt)Programm eine andere Datei nutzen wollen,
 sprechen wir davon, dass wir ein Modul importieren.
 Tatsächlich aber ist ein Modul nichts anderes als ein Python Script.
-Ist euch die Bezeichnung in der IDLE aufgefallen, mit
-der wir ein Programm starten, - `Run Module`!
+Ist euch der Menütext in der IDLE aufgefallen, mit
+dem wir ein Programm starten, - `Run Module`!
 
-Zuerst schauen wir uns an, wie ein Python-Script importiert,
+Wir schauen uns als erstes an, wie ein Python-Script importiert,
 also verfügbar gemacht werden kann.
 
 Module importieren
@@ -40,7 +40,7 @@ Danach stehen uns eine Reihe von Mathematischen Funktionen zur Verfügung, wie z
     >>> math.sqrt(16)
     4
 
-Die Syntax dafür enthält wieder, wie bei den Objekten, einen **Punkt**.
+Die Syntax dafür enthält wieder, wie bei den :ref:`Objekten<oop-usage1>`, einen **Punkt**.
 Hier steht links vom Punkt der Modulname und rechts davon die Funktion.
 Links von einem Punkt steht also immer entweder der Name eines Moduls
 oder der Name eines Objekts.
@@ -113,36 +113,38 @@ eigene Module nutzen
 Module sind also einfach Python-Scripte,
 d.h. jedes Python-Script lässt sich auch importieren.
 
-Vielleicht ein kurzes Beispiel:
-Wir erstellen eine Datei mit dem Namen `tools.py` :
+Hier ein kleines Beispiel, wir erstellen
+eine Datei/Script mit dem Namen ``tools.py``:
 
 .. code:: python
+
+    var = "Eine Variable"
 
     def plus19(wert):
         print("Funktion plus19")
         steuer = wert * 0.19
         return wert + steuer
 
-    plus19(100)
-    var = "Variable"
+    result = plus19(100)
 
-Und wir erstellen im selben Verzeichnis eine Datei mit
-dem Namen `main.py`.
+Und wir erstellen im selben Verzeichnis eine Datei/Script mit
+beispielsweise dem Namen ``foo.py``.
 
-In  `main.py` können wir das Script tools.py einfach importieren,
-dabei ist der Modulname einfach der Name der Datei ohne die Endung.
+In  ``foo.py`` können wir das Script ``tools.py`` einfach importieren,
+indem wir den Namen der Datei ohne Endung verwenden.
+(Modulnamen sollen übrigens grundsätzlich klein geschrieben werden !)
 
 .. code:: python
 
     import tools
     print("Programm-Ende")
 
-Wenn wir diese Datei ausführen, stellen wir fest, dass nicht
+Wenn wir dieses Script ausführen, stellen wir fest, dass nicht
 nur die Definition von plus19() importiert wurde, sondern
-dass plus19() auch gleich ausgeführt wird.
+dass plus19() auch gleich ausgeführt wurde.
 
-Aber jetzt probieren wir, ob die Funktion und die Variable
-auch genutzt werden können:
+Zur Sicherheit probieren wir noch, ob die Funktion und die Variable
+auch wirklich genutzt werden können:
 
 .. code:: python
 
