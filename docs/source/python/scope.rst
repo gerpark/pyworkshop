@@ -50,7 +50,7 @@ aber nur sehr gezielt und möglichst **wenig verwendet** werden.
 
 
 Der Kritikpunkt an dieser Funktion ist die `unsaubere Schnittstelle`, denn sie verlässt
-sich darauf, dass es eine Variable `aussen` gibt. Gibt es aber keine Variable mit diesem Namen,
+sich darauf, dass es eine Variable ``aussen`` gibt. Gibt es aber keine Variable mit diesem Namen,
 stürzt das Programm mit einem Laufzeitfehler ab. Stattdessen hätte problemlos
 ein Parameter verwendet werden können.
 

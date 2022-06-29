@@ -20,7 +20,7 @@ ziemlich wie ein :ref:`Kommandozeilenprogramm <cmd-line>` aus !?
 Und richtig, es ist die sogenannte :ref:`Python-Shell<python-shell>`.
 
 Der Prompt besteht aus "3 Größerzeichen"  **>>>**  und ist das
-Erkennungszeichen dafür, das hier nur noch Befehle oder Anweisungen verstanden werden,
+Erkennungszeichen dafür, dass hier nur Befehle oder Anweisungen verstanden werden,
 die den Regeln der Programmiersprache `Python` entsprechen:
 
 .. code:: python
@@ -28,10 +28,9 @@ die den Regeln der Programmiersprache `Python` entsprechen:
     Python 3.xxx
     >>> 
 
-Falls der eingegebene Befehl kein gültiger Python-Code ist, erhalten wir eine 
-Fehlermeldung.
-Auf den ersten Blick sieht das dann schlimmer aus, als es ist, 
-denn es sind nur Informationen, um zu erkennen was schief gelaufen ist.
+Falls der eingegebene Befehl kein gültiger Python-Code ist, erhalten wir eine Fehlermeldung.
+Auf den ersten Blick sieht das etwas furchterregend aus, aber es sind nur Hinweise darauf
+was vom Python Interpreter nicht verstanden wurde.
 
 .. _code-editor:
 

@@ -1,4 +1,4 @@
-
+﻿
 .. _oop-allg:
 
 #################
@@ -12,7 +12,8 @@ Es ist nicht einfach sich diesem großen Thema zu nähern.
 Grundsätzlich handelt es sich bei einem Objekt um ein etwas komplexeres Gebilde.
 Das Wichtigste ist vielleicht, dass dort mehrere Variablen unter einem 
 Dach zusammengefasst werden können. Außerdem befinden sich unter diesem Dach
-noch Funktionen, die dann als Methoden bezeichnet werden.
+noch Funktionen, die als Methoden bezeichnet werden, und die diese Variablen
+auslesen oder auch ändern können.
 
 Ein Objekt basiert, ähnlich wie eine Funktion, auf einem Bauplan der als
 **Klasse** bezeichnet wird. Nachdem eine solche Klasse definiert ist,
@@ -81,8 +82,7 @@ werden in sogenannten **Instanzvariablen** gespeichert.
 Mit Objekten lassen sich so viele Dinge der realen Welt häufig besser abbilden,
 das gilt ganz besonders für Dinge oder Aufgaben im grafischen Bereich.
 
-Wäre da nicht vielleicht die
-:ref:`Turtle <turtle-index>`
+Wäre da nicht vielleicht die :ref:`Turtle <turtle-index>`
 das beste Beispiel für ein Objekt, denn sie hat als Eigenschaften Farbe und Form
 und kann sich drehen und laufen ?
 

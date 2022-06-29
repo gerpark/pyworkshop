@@ -1,5 +1,5 @@
 ﻿
-.. index:: Function, Procedure, Unterprogramm, def, parameter, argumente
+.. index:: Funktion, Prozedure, Unterprogramm, def, Parameter, Argumente
 
 ####################
 Funktionen erstellen
@@ -80,7 +80,7 @@ die aber nur innerhalb der Funktion benutzt werden können
         print("Der Flächeninhalt beträgt ", result, "qmm.")
 
 
-Hier sind also `pi`, `resultat` und auch der Parameter `radius` Lokale Variablen.
+Hier sind also ``pi``, ``resultat`` und auch der Parameter ``radius`` `Lokale Variablen`.
 
 
 Jetzt müssen wir nur noch das errechnete Ergebnis zurückliefern und das 
@@ -118,11 +118,11 @@ und verständlich sein!
 Parameter und Argumente
 -----------------------
 
-Parameter sind die Variablen im Funktionskopf, die dann in der Funktion verwendet
+**Parameter** sind die Variablen im Funktionskopf, die dann in der Funktion verwendet
 werden können. **Argumente** sind die Werte bzw. Variablen, die beim Aufruf
 an die Funktion übergeben werden.
 
-Für die **Zuordnung** von den Argumenten zu den Parameter gibt es mehrere Möglichkeiten.
+Für die **Zuordnung** von den Argumenten zu den Parametern gibt es mehrere Möglichkeiten.
 Standardmäßig geschieht das über die Reihenfolge, d.h. das erste Argument
 wird an den ersten Parameter übergeben, und das zweite Argument landet im
 zweiten Parameter u.s.w.
@@ -162,12 +162,23 @@ kann die Funktion jetzt mit oder ohne Argument aufgerufen werden.
 Benannte Parameter
 ------------------
 
-Die Zuordnung der Parameter zwischen der Definition und dem Aufruf einer Funktion
+Die Zuordnung zwischen Aufruf und Definition in der Funktion
 wurde bisher durch die Reihenfolge der Parameter bestimmt.
 
-Stattdessen kann die Zuordnung aber auch so geschehen, dass beim Aufruf der Funktion
-einfach die Namen der Parameter benutzt werden.
+Stattdessen kann die Zuordnung aber auch so geschehen, dass beim Aufruf der
+Funktion einfach die Namen der Parameter benutzt werden.
 Das hat zudem den Vorteil, dass das Programm leichter zu lesen ist.
 
-Die beiden Möglichkeiten lassen sich auch kombinieren, dann müssen aber zuerst
-die Parameter kommen, die über die Reihenfolge zugeordnet werden.
+Bei unserem Flächenbeispiel könnte der Aufruf dann so aussehen:
+
+.. code:: python
+
+    def flaeche(radius, einheit):
+        ...
+        ...
+
+    ergebnis = flaeche(einheit="cm", radius=100)
+
+
+Die beiden Möglichkeiten der Zuordnung lassen sich auch kombinieren, dann
+müssen aber zuerst die Argumente Parameter verwendet werden, die über die Reihenfolge zugeordnet werden sollen.

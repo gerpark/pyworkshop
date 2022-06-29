@@ -1,4 +1,4 @@
-
+﻿
 .. _aggr:
 
 .. index:: list, tuple, dictionary, dict, assoziative, array
@@ -23,7 +23,7 @@ verwendet werden und liefert ein ``True`` oder ``False`` zurück, z.B:
 
 
 Der Datentyp wird bei den vier gebräuchlichsten Datentypen
-durch die Begrenzungszeichen beim Initialsieren festgelegt.
+durch die Begrenzungszeichen beim Initialisieren festgelegt.
 
 .. code:: python
 
@@ -47,7 +47,7 @@ Tuple
 -----
 
 Das Tuple ist wie z.B. der String ein :ref:`unveränderlicher Datentyp <py-mutable>`,
-d.h. einmal inialisiert kann das Tuple, im Gegensatz zu einer Liste, nicht mehr geändert werden.
+d.h. einmal initialisiert kann das Tuple, im Gegensatz zu einer Liste, nicht mehr geändert werden.
 
 In manchen Situation soll z.B. deutlich gemacht werden, dass der Inhalt der Variablen
 nicht geändert werden kann, darüber hinaus benötigt ein Tuple weniger Speicherplatz
@@ -89,12 +89,12 @@ d.h. eine Exception wird geworfen.
 Dictionary
 ----------
 
-Die Datentypen `string`, `list` und `tuple` sind 'sequentielle Datentypen',
+Die Datentypen `string`, `list` und `tuple` sind `"sequentielle Datentypen"`,
 d.h. die Elemente stehen in einer festen Reihenfolge hintereinander und werden über einen
 (numerischen) Index angesprochen.
 
-Das Dictionary dagegen ist ein `"assozitives array"`, die Elemente sind 
-ungeordnet und die einzelnen Werte werden über einen **Schlüssel (key)** angesprochen.
+Das Dictionary dagegen ist ein `"assoziatives array"`, die Elemente sind ungeordnet und
+die einzelnen Werte werden über einen **Schlüssel (key)** angesprochen.
 Wie die Liste ist das Dictionary ein :ref:`veränderlicher Datentyp <py-mutable>`.
 
 Wir beginnen mit einem leeren **Dictionary**:
@@ -103,7 +103,7 @@ Wir beginnen mit einem leeren **Dictionary**:
 
     >>> monate = {}
 
-und können jetzt einzele Werte zufügen, und kontrollieren das Ergebnis wie immer,
+und können jetzt einzelne Werte zufügen, und kontrollieren das Ergebnis wie immer,
 in dem wir einfach den Namen des Dictionarys eingeben:
 
 .. code:: python
@@ -126,9 +126,9 @@ Das einzelne Element erhalten wir wieder mit Hilfe des `Schlüssels`:
 Diese Art des Zugriffs ist sehr schnell, d.h. wir würden das Ergebnis
 auch bei einem großen Dictionary sofort erhalten.
 
-Wenn wir aber auf ein Element zurückgreifen, dass es gar nicht gibt,
-führt das zu einem Fehler. Dies kann und sollte auch vermieden werden, indem wir zuerst prüfen, 
-ob es zu dem jeweiligen `Schlüssel (key)` einen Wert gibt:
+Wenn wir auf ein Element zurückgreifen, dass es gar nicht gibt,
+führt das zu einem Fehler. Dies lässt sich leicht vermeiden, indem wir zuerst prüfen, 
+ob es den jeweiligen `Schlüssel` überhaupt gibt:
 
 .. code:: python
 
@@ -136,4 +136,4 @@ ob es zu dem jeweiligen `Schlüssel (key)` einen Wert gibt:
     >>> if monat in monate:
             print("Der Monat", monat, "hat", monate[monat], "Tage.")
         else:
-            print("zu diesem Monat", monat, "gibt es keine Angabe !")
+            print("Fehler: über den Monat <", monat, "> ist nichts gekannt!")
