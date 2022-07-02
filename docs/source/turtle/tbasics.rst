@@ -15,6 +15,10 @@ zusammen.
 Wird das Programm aber nur aus der  :ref:`IDLE <idle>` heraus gestartet, ist die Anweisung
 `mainloop` nicht notwendig, da deren Funktion von der IDLE übernommen werden kann.
 
+**!!! Achtung !!!**
+Wenn wir ein Script benutzen, darf die Datei **nie** `turtle.py` heißen,
+da sonst die ganze Turtle-Software nicht mehr funktioniert (:ref:`Module <module-use>`!).
+
 Die Turtle selbst, ist eigentlich ein **Zeichenstift**, die Spitze des Stifts 
 kann mehrere Formen annehmen, z.B. auch die Form einer Schildkröte.
 

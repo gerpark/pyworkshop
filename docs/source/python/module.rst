@@ -107,6 +107,8 @@ werden, sobald das Modul (in welcher Variante auch immer) importiert wurde.
     >>> help(os.getcwd)
 
 
+.. _module-use:
+
 eigene Module nutzen
 --------------------
 
