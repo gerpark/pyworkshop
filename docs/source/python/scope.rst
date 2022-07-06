@@ -54,7 +54,9 @@ sich darauf, dass es eine Variable ``aussen`` gibt. Gibt es aber keine Variable 
 stürzt das Programm mit einem Laufzeitfehler ab. Stattdessen hätte problemlos
 ein Parameter verwendet werden können.
 
-Aber wie so manchmal lässt uns Python große Freiheiten, aber im Sinne von einem
+Ausserdem können Variablennamen leicht überschrieben werden, was leicht zu :ref:`Fehlern <py-vorsicht>` führen kann.
+
+Auch hier lässt uns also Python große Freiheiten, aber im Sinne von einem
 sicheren, gut verständlichen und gut wartbaren Programmcode sollten `globale Variablen`
 nur sehr sparsam und wohlüberlegt verwendet werden.
 

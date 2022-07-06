@@ -18,6 +18,8 @@ für unterschiedliche Datentypen verwendet werden kann.
 Das bedeutet, dass in Python, im Gegensatz zu vielen anderen
 Programmiersprachen, die Variable selbst nichts über ihren Inhalt weiß, d.h.:
 
+.. _py-vorsicht:
+
 **eine Variable ist einfach nur ein Name für etwas !**
 
 Genauer gesagt, enthält eine Variable einfach nur eine Referenz auf ein beliebiges Objekt.
@@ -40,6 +42,7 @@ Wenn wir nun die Turtle weiterbenutzen wollen, haben wir ein Problem,
 denn wir haben für die Turtle keinen gültigen Namen.
 Am Bildschirm wird die Turtle zwar noch angezeigt, kann aber nicht
 angesprochen und damit auch nicht mehr verwendet werden, nur noch ein Schatten ihrer selbst!
+
 
 Außerdem sind in Python alle Namen gleichwertig, d.h. dass z.B. auch ein
 Funktionsname auf diese Weise unbrauchbar gemacht werden kann.

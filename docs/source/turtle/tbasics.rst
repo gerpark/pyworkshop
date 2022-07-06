@@ -12,7 +12,7 @@ Dabei sind erste 'Gehversuche' auch auf der :ref:`Python-Shell<python-shell>` m�
 Wird aber stattdessen ein Skript erstellt, muss dort als letzte Anweisung
 `mainloop()` stehen.  Dies hängt mit den Eigenschaften von grafischen Programmen
 zusammen.
-Wird das Programm aber nur aus der  :ref:`IDLE <idle>` heraus gestartet, ist die Anweisung
+Wird das Programm aber aus der  :ref:`IDLE <idle>` heraus gestartet, ist die Anweisung
 `mainloop` nicht notwendig, da deren Funktion von der IDLE übernommen werden kann.
 
 **!!! Achtung !!!**

@@ -9,7 +9,7 @@ Aggregierte Datentypen
 
 Es gibt eine ganze Reihe von Zusammengesetzten- oder Sammel-Datentypen.
 
-Gemeinsam ist ihnen, dass auf die einzelnen Elemente mit den 
+Gemeinsam ist ihnen, dass auf die einzelnen Elemente mit
 `Eckigen Klammern` zugegriffen wird und die Anzahl der Elemente
 mit der Funktion ``len()`` ermittelt werden kann.
 
@@ -18,7 +18,7 @@ verwendet werden und liefert ein ``True`` oder ``False`` zurück, z.B:
 
 .. code:: python
 
-    >>> "o" in "wort"
+    >>> 'o' in 'wort'
     True
 
 
@@ -27,7 +27,7 @@ durch die Begrenzungszeichen beim Initialisieren festgelegt.
 
 .. code:: python
 
-    >>> string = "Die ist ein String"
+    >>> string = 'Dies ist ein String'
     >>> liste  = [5, 4, 12] 
 
 Neu ist der Datentyp `Tuple`:
@@ -36,12 +36,33 @@ Neu ist der Datentyp `Tuple`:
 
     >>> tup = (7, 2, 16)
 
-und das `Dictionary`:
+String, Liste und Tuple sind `sequentielle Datentypen`, d.h. die Elemente stehen in einer festen
+Reihenfolge und werden über einen `Index` angesprochen.
+Hier können auch Teilbereiche ermittelt werden, diese Technik heißt `Slicing`:
+
+.. code:: python
+
+    >>> s = 'Frühling'
+    >>> s[4:7]
+    'lin'
+
+Zuletzt das `Dictionary`, hier werden die Elemente nicht über einen `Index`,
+sondern über einen `Schlüssel` angesprochen.
+Für die Initialisierung werden gescheifte Klammern verwendet.
 
 .. code:: python
 
     >>> dic = {'jan':31, 'apr':30}
 
+
+Allen diesen Datentypen ist gemeinsam, dass sie zusammen mit der for-Schleife verwendet werden können.
+Bei den sequentielle Datentypen wird dabei über die einzelnen Elemente iteriert, bei
+dem Dictionary über eine Liste der Schlüssel.
+
+Liste
+-----
+
+Die **Liste** haben wir schon :ref:`zuvor <liste>` besprochen, sie ist ein :ref:`veränderlicher Datentyp <py-mutable>`.
 
 Tuple
 -----

@@ -14,7 +14,7 @@ Die Programmiersprache Python.
 Python gehört mit zu den `beliebtesten Programmiersprachen <https://www.tiobe.com/tiobe-index//>`_,
 sie ist vielseitig verwendbar und weltweit beliebt und verbreitet.
 
-Python hat eine klare und gut verständlich Syntax, und ist
+Python hat eine klare und gut verständliche Syntax, und ist
 als Einstiegssprache, behaupte nicht nur ich, sicherlich die erste Wahl.
 
 Mit Python kann prozedural oder auch objektorientiert programmiert werden.
