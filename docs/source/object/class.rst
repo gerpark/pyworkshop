@@ -19,7 +19,7 @@ Die Klasse ist also der Bauplan, aus dem 'konkrete' Objekte (Instanzen)
 erstellt werden. Klassennamen beginnen vereinbarungsgemäß
 mit einem Groß-Buchstaben !
 
-Wir beginnen mal mit der leeren Hülle einer **Klasse**:
+Wir beginnen mit der leeren Hülle einer **Klasse**:
 (die Anweisung ``pass`` "macht nichts", es geht nur um die Syntax/Sprachregeln,
 da ja nach dem ':' etwas Eingerücktes stehen muss.)
 
@@ -34,7 +34,7 @@ da ja nach dem ':' etwas Eingerücktes stehen muss.)
 Methoden und Instanzvariablen
 =============================
 
-Jetzt wollen wir die Klasse mal mit etwas Inhalt füllen und erstellen eine Methode.
+Jetzt wollen wir die Klasse mit etwas Inhalt füllen und erstellen eine Methode.
 Eine **Methode** ist eine spezielle Art von Funktion,
 die nur zusammen mit einem Objekt dieser Klasse verwendet werden kann.
 
@@ -81,8 +81,8 @@ Allerdings gibt es bei diesem Programm noch ein Problem, denn
 was passiert, wenn wir die Methode ``sprich()`` verwenden, bevor wir 
 die Methode ``setfutter()`` aufgerufen haben?
 
-Es gibt einen Fehler, denn die Instanzvariable ``self.futter`` wurde noch nicht definiert, der entsprechende Programmcode wurde 
-noch nicht durchlaufen.
+Es gibt einen Fehler, denn die Instanzvariable ``self.futter`` wurde noch nicht definiert,
+der entsprechende Programmcode wurde noch nicht durchlaufen.
 
 Dass läßt sich aber leicht vermeiden, denn wie bei allen objektorientierten Sprachen,
 gibt es die Möglichkeit ein Objekt zu initialisieren.
@@ -92,8 +92,7 @@ Wenn also in einer Klasse eine Methode mit dem dem festgelegten Namen ``__init__
 definiert wurde (zwei Unterstriche), dann wird diese Methode einmal
 beim Erstellen eines jeden Objekts ausgeführt.
 Das ist der richtige Ort, um die Instanzvariablen zu initialisieren.
-Grundsätzlich würde ich empfehlen, 
-alle Instanzvariablen schon im Konstruktor anzulegen.
+Ich würde also grundsätzlich empfehlen, alle Instanzvariablen schon im Konstruktor anzulegen.
 
 .. code:: python
 
@@ -162,19 +161,18 @@ aber set...() und get...() haben sich eingebürgert.
     print("und mag", myfood)
 
 
-In vielen `Objektorientierten Sprachen`, kann auf einzelnen Objekte
+In vielen `Objektorientierten Sprachen`, kann auf einzelne Objekte
 nur über Methoden zugegriffen werden, in Python ist es aber auch
 direkt über den Objektnamen möglich.
 Das Objekt bildet dabei sozusagen einen eigenen **Namensraum**.
 
-(bei der Klassendefinition weiter oben) könnte ich das Futter 
-auch direkt ermitteln (`elch.futter`):
+In diesem Beispiel könnte ich das Futter also auch direkt verwenden:
 
 .. code:: python
 
     elch = Tier()
     elch.setfutter("Kräuter")
-    print("und mag", elch.futter)
+    print("Ich mag", elch.futter)
 
 
 Methoden

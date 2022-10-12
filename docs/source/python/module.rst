@@ -55,10 +55,10 @@ In diesem Zusammenhang gibt es eine hilfreiche Funktion `dir()`.
     >>> dir()
 
 Ohne Parameter bekommen wir eine Liste der aktuell verwendeten Namen angezeigt,
-das sind einige vor eingestelle Dinge, aber eben auch `math`, den Namen 
+das sind einige voreingestelle Dinge, aber eben auch `math`, den Namen
 unseres eben importierten Moduls.
 
-Wenn wir jetzt die Variante nehmen, die wir für das Turtle Modul benutzt haben,
+Wenn wir jetzt die Variante nehmen, die wir bisher für das Turtle Modul benutzt haben,
 kann auf den Modulnamen verzichtet werden:
 
 .. code:: python
@@ -74,12 +74,12 @@ zur Verfügung gestellten Funktionen.
     >>> dir()
 
 Diese große Zahl von `global gültigen Namen` ist mit einigen Nachteilen verbunden,
-wie ich :ref:`hier <py-noglobal>` ja schon beschrieben habe.
+wie ich :ref:`hier <py-noglobal>` beschrieben habe.
 
-Bei größeren Programmen oder Projekten sollte diese Variante vielleicht besser nicht zum
+Bei größeren Programmen oder Projekten sollte diese Variante besser nicht zum
 Einsatz kommen, obwohl sie natürlich einfach und praktisch ist.
 
-Statt der eben beschriebenen Variante gibt es noch zwei andere Möglichkeiten,
+Statt der eben beschriebenen Variante gibt es noch zwei weitere Möglichkeiten,
 (ohne den Globale Namensraum mehr als nötig aufzublasen),
 so kann für den Modulnamen eine Abkürzung vergeben werden:
 
@@ -97,8 +97,8 @@ in diesem Beispiel also die Funktionen `sqrt` und `sin`.
     >>> sqrt(16)
 
 
-Hier möchte ich nochmal auf die `Hilfe` hinweisen, denn sie kann erst verwendet
-werden, sobald das Modul (in welcher Variante auch immer) importiert wurde.
+Hier möchte ich nochmal auf die `Hilfe` hinweisen, denn der Inhalt eines Moduls kann erst verwendet
+werden, wenn das Modul (in welcher Variante auch immer) zuvor importiert wurde.
 
 .. code:: python
 
@@ -109,7 +109,7 @@ werden, sobald das Modul (in welcher Variante auch immer) importiert wurde.
 
 .. _module-use:
 
-eigene Module nutzen
+Eigene Module nutzen
 --------------------
 
 Module sind also einfach Python-Scripte,
@@ -156,10 +156,10 @@ auch wirklich genutzt werden können:
     print("Programm-Ende")
 
 
-importiert oder nicht ?
+Importiert oder nicht ?
 -----------------------
 
-In der Regel werden aus Modulen nur die Definitionen benötigt. Beim Entwickeln und Testen eines Moduls,
+In der Regel werden aus einem Modul nur die Definitionen benötigt. Beim Entwickeln und Testen eines Moduls,
 ist es aber praktisch, wenn die jeweiligen Funktionen auch im selben Script aufgerufen werden können.
 
 Hierfür gibt es eine interne Variable `__name__` (je 2 Unterstriche), die wenn das Script importiert wurde,

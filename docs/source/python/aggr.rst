@@ -21,48 +21,66 @@ verwendet werden und liefert ein ``True`` oder ``False`` zurück, z.B:
     >>> 'o' in 'wort'
     True
 
-
 Der Datentyp wird bei den vier gebräuchlichsten Datentypen
 durch die Begrenzungszeichen beim Initialisieren festgelegt.
+Beim String sind es die Hochkommas, bei der Liste die
+'eckigen Klammern':
 
 .. code:: python
 
     >>> string = 'Dies ist ein String'
     >>> liste  = [5, 4, 12] 
 
-Neu ist der Datentyp `Tuple`:
+Neu ist der Datentyp `Tuple`, der an den Klammern zu erkennen ist:
 
 .. code:: python
 
     >>> tup = (7, 2, 16)
 
-String, Liste und Tuple sind `sequentielle Datentypen`, d.h. die Elemente stehen in einer festen
-Reihenfolge und werden über einen `Index` angesprochen.
-Hier können auch Teilbereiche ermittelt werden, diese Technik heißt `Slicing`:
-
-.. code:: python
-
-    >>> s = 'Frühling'
-    >>> s[4:7]
-    'lin'
-
-Zuletzt das `Dictionary`, hier werden die Elemente nicht über einen `Index`,
+Zuletzt das `Dictionary`, es wird mit gescheifte Klammern initialisiert.
+Hier werden die Elemente nicht über einen `Index`,
 sondern über einen `Schlüssel` angesprochen.
-Für die Initialisierung werden gescheifte Klammern verwendet.
 
 .. code:: python
 
     >>> dic = {'jan':31, 'apr':30}
 
-
-Allen diesen Datentypen ist gemeinsam, dass sie zusammen mit der for-Schleife verwendet werden können.
-Bei den sequentielle Datentypen wird dabei über die einzelnen Elemente iteriert, bei
+Allen diesen Datentypen ist gemeinsam, dass sie zusammen mit einer for-Schleife verwendet werden können.
+Bei den sequentiellen Datentypen wird dabei über die einzelnen Elemente iteriert, bei
 dem Dictionary über eine Liste der Schlüssel.
 
 Liste
 -----
 
 Die **Liste** haben wir schon :ref:`zuvor <liste>` besprochen, sie ist ein :ref:`veränderlicher Datentyp <py-mutable>`.
+
+String
+------
+
+Auch der String ist ein Sammel-Datentyp, so können wir einen String mit einer For-Schleife
+in seine Teile zerlegen oder auf die einzelnen Zeichen über 'eckige Klammern' zugreifen.
+
+Zu Strings gibt es eine ganze Reihe von Methoden, zwei davon möchte ich kurz vorstellen:
+mit split() erhalte ich aus einem String eine Liste. Ohne Parameter werden alle
+'white spaces' (Leerzeichen,Tabularen, Zeilenende) entfernt und als Trennzeichen verwendet.
+split strip:
+
+Wenn Text angezeigt oder in eine Datei geschrieben wird, soll die Ausgabe
+häufig etwas in Form gebracht werden. Das Sprachkonstrukt dafür sieht auf den ersten Blick etwas
+verwirrend aus, ich gehe **hier** genauer darauf ein.
+
+
+Eine weitere sehr praktische Technik möchte ich zusammen mit den Strings erwähnen, obwohl sie auch für die anderen `sequentielle Datentypen`
+gilt, das sogenannte `Slicing`. Hiermit können mit Hilfe einer einfachen Syntax Teilbereiche eines Strings
+ermittelt werden (In anderen Sprachen wären dafür Funktionen mit Namen wie 'substring' notwendig).
+
+Ich zeige hier nur ein kurzes Beispiel:
+
+.. code:: python
+
+    >>> txt = 'Hausboot'
+    >>> s[1:4]
+    'aus'
 
 Tuple
 -----
@@ -137,7 +155,7 @@ in dem wir einfach den Namen des Dictionarys eingeben:
     {'Januar': 31, 'April': 30, 'Juli': 31}
 
 
-Das einzelne Element erhalten wir wieder mit Hilfe des `Schlüssels`:
+Das einzelne Element erhalten wir mit Hilfe des `Schlüssels`:
 
 .. code:: python
 
@@ -158,3 +176,6 @@ ob es den jeweiligen `Schlüssel` überhaupt gibt:
             print("Der Monat", monat, "hat", monate[monat], "Tage.")
         else:
             print("Fehler: über den Monat <", monat, "> ist nichts gekannt!")
+
+
+Häufig ist der Schlüssel ein String, aber es kann auch eine anderer unveränderlicher Datentyp sein.
