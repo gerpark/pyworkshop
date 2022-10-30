@@ -31,10 +31,9 @@ zu den Regeln, die beim Schreiben von Python Programmen beachtet werden müssen:
 *   Ein solcher **Anweisungsblock** endet an der Stelle, an der eine Anweisung
     wieder weiter links steht.
     |br| |br|
-*   **Kommentare** innerhalb bzw. am Anfang einer Zeile beginnen mit einem '#' (hash)
-    und müssen gegebenenfalls auch richtig eingerückt sein.
+*   **Kommentare** innerhalb bzw. am Anfang einer Zeile beginnen mit einem '#' (hash).
     |br| |br|
-*   **mehrzeilige Kommentare** können auch mit einem ``"""`` beginnen und enden mit ``"""``  
+*   **mehrzeilige Kommentare** beginnen mit einem ``"""`` und enden mit ``"""``
     und müssen auch richtig eingerückt sein. Statt dem ``"""`` kann auch jeweils
     ein ``'''`` verwendet werden.
     |br| |br|

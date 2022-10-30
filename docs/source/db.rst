@@ -33,6 +33,8 @@ und geändert werden können, ist sie sehr gut geeignet.
 Die Python Standardbibliothek enthält alles notwendige um alle Aufgaben
 im Zusammenhang mit einer `SQLite DB` erledigen zu können.
 
+.. _dbbrowser:
+
 Verbindungen
 ------------
 
