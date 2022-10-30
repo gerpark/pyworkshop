@@ -33,7 +33,6 @@ und geändert werden können, ist sie sehr gut geeignet.
 Die Python Standardbibliothek enthält alles notwendige um alle Aufgaben
 im Zusammenhang mit einer `SQLite DB` erledigen zu können.
 
-.. _dbbrowser:
 
 Verbindungen
 ------------
@@ -62,6 +61,8 @@ bei `SQLite` ist ein solches 'Command-line-tool' `hier <https://www.sqlite.org/d
 In der Regel wird aber von einer Anwendung aus auf eine Datenbank zugegriffen, d.h. es gibt
 für die meisten Programmiersprachen die Möglichkeit sich mit Datenbanken zu verbinden und dann
 dort SQL auszuführen.
+
+.. _dbbrowser:
 
 Wir werden hier zum einem von `Python` aus, eine SQLite Datenbank verwenden,
 aber zusätzlich auch ein spezielles grafisches Tool für  `SQLite`  nutzen. Die Software ist Opensource und damit auch auf allen
