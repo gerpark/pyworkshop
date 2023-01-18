@@ -9,10 +9,10 @@ Bedingte Anweisung
 (ECDL: Bedingungsanweisung)
 
 Wie wird jetzt der Ablauf des Programms gesteuert, d.h. wie kann festgelegt
-werden, was als nächstes im Programmablauf ausgeführt werden soll.
+werden, was als nächstes im Programmablauf ausgeführt werden soll?
 
-Dazu gibt es die `If-Anweisung`, die mit dem Schlüsselwort **if**
-beginnt, dann folgt die :ref:`Bedingung <bool-expression>` (der *boolsche Ausdruck*) 
+Dafür gibt es die `If-Anweisung`: sie beginnt mit dem Schlüsselwort **if**,
+dann folgt die :ref:`Bedingung <bool-expression>` (der *boolsche Ausdruck*) 
 und am Ende steht ein **Doppelpunkt**:
 
 Wir erstellen eine Datei z.B. quiz.py und schreiben:
@@ -28,7 +28,7 @@ Wir erstellen eine Datei z.B. quiz.py und schreiben:
 Falls die Bedingung richtig ist, werden alle Anweisungen (=Anweisungsblock) 
 ausgeführt, die gleich weit eingerückt stehen.
 In der Regel wird um 4 Leerzeichen eingerückt und ein für Python gut 
-geeigneter Editor, wird ein :kbd:`<Tab>`-Zeichen entsprechend ersetzen.
+geeigneter Editor, wird ein :kbd:`<Tab>`-Zeichen durch 4 Leerzeichen ersetzen.
 
 
 Die *if-Anweisung* kann mit **else** und **elif** (=else if) erweitert werden.

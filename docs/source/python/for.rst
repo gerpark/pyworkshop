@@ -13,7 +13,7 @@ kein Wunder dass sie ständig und überall benutzt wird.
 Sie wird meist in Kombination mit `Zusammengesetzte Datentypen` verwendet und
 ist dann eigentlich nur eine Kurzform der `while-Schleife`.
 
-Ich zeige dass mal an diesem kleinen Beispiel:
+Ich zeige das mal an diesem kleinen Beispiel:
 
 .. code:: python
 

@@ -38,10 +38,10 @@ anderes verwendet werden und verliert damit seine ursprünglichen Inhalt, z.B. :
     # Später im Programm überschreiben wir 'joe' versehentlich 
     joe = 47
 
-Wenn wir nun die Turtle weiterbenutzen wollen, haben wir ein Problem,
-denn wir haben für die Turtle keinen gültigen Namen.
-Am Bildschirm wird die Turtle zwar noch angezeigt, kann aber nicht
-angesprochen und damit auch nicht mehr verwendet werden, nur noch ein Schatten ihrer selbst!
+Wenn wir nun die Turtle weiterbenutzen wollen, gibt es ein Problem,
+denn für die Turtle gibt es keinen Namen mehr.
+Am Bildschirm wird die Turtle zwar noch angezeigt, kann aber nicht angesprochen
+und damit auch nicht mehr verwendet werden, - nur noch ein Schatten ihrer selbst!
 
 
 Außerdem sind in Python alle Namen gleichwertig, d.h. dass z.B. auch ein

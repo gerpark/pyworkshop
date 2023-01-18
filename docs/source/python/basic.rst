@@ -71,8 +71,8 @@ oho - und hierbei:
         ...
         TypeError: must be str, not int
 
-Diese Fehlermeldung deutet auf das Thema `Datentypen`, und besagt,
+Diese Fehlermeldung deutet auf das Thema `Datentypen` hin, und besagt,
 dass hier ein falscher Datentyp verwendet wurde.
-"hallo" ist eine Zeichenkette, ein `String`  (=str) und hierzu
-könnte zwar ein weiterer String, aber keine `ganze Zahl` (=int) addiert werden.
+"hallo" ist eine Zeichenkette, ein `String`  (=str) und hierzu könnte
+könnte ein weiterer String, aber keine `ganze Zahl` (=int) addiert werden.
 Wie müsste es heißen ?

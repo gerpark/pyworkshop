@@ -18,7 +18,7 @@ und klicken dort auf Symbole oder ähnliches.
 Ein solches Grafical-User-Interface wird abgekürzt häufig als *GUI* bezeichnet.
 
 Bevor es hochauflösende Bildschirm gab, fand die Kommunikation (oder vielleicht bessser Interaktion)
-mit dem Computer über eine Kommandozeile, - ein Commandline Interface ( *CLI* ) statt.
+mit dem Computer ausschliesslich über eine Kommandozeile, - ein Commandline Interface ( *CLI* ) statt.
 
 Ein Kommandozeilen Programm erkennt man an der Eingabeaufforderung (= *Prompt* ),
 die am unteren Ende eines meist schwarzen Fensters zu finden ist. 
@@ -32,10 +32,10 @@ Bezeichnungen wie z.B. *Konsole*, *Terminal* und *Shell*.
 Jedes Betriebssystem besitzt ein solches Kommandozeilenprogramm und kann darüber 
 angesprochen werden.
 Jetzt könnte man denken, dass das doch eher altmodisch ist, aber ganz im Gegenteil,
-häufig ist die Kommandozeile die viele elegantere und schnellere
+häufig ist die Kommandozeile die elegantere und schnellere
 Alternative zu unzähligen Mausklicks.
 
-Bei den `Django Girls <https://djangogirls.org>`_, heisst es "Dein neuer Freund, die Kommandozeile",
+Bei den `Django Girls <https://djangogirls.org>`_, heißt es "Dein neuer Freund, die Kommandozeile",
 das kann ich nur unterstreichen. Dort gibt es überhaupt ein paar sehr `ansprechende Tutorials <https://tutorial.djangogirls.org/de/intro_to_command_line>`_,
 und das nicht nur zur Kommandozeile.
 
@@ -61,6 +61,6 @@ Python
 
 Auch für die Programmiersprache `Python` gibt es ein Kommandozeilen Programm, in dem Python interaktiv benutzt
 werden kann. Der `Prompt` sind hier 3 "Größer-Zeichen" und sobald die **>>>** zu sehen sind, werden nur noch gültige
-Python Anweisungen verstanden.
+Python Befehle/Anweisungen verstanden.
 Damit das Programm ``python`` auf der Windows Kommandozeile gefunden wird,
 muss bei der Installation zusätzlich :ref:`diese Option <myinstallation-hint>` ausgewählt werden.

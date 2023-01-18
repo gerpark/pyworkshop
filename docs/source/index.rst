@@ -13,9 +13,9 @@ von Gerhard Sachs
 
 Dieses Dokument wird kontinuierlich weiterbearbeitet.
 
-Version 2.01 vom 1. November 2022
+Version 2.02 vom 17. Januar 2023
 
-Und hier noch ein Link mit ein bisschen was zu `Python, dem Workshop und mir <http://www.ortrun-dieterich.de/workshop.html>`_ .
+Und hier noch ein Link mit etwas zu `Python, dem Workshop und meiner Person <http://www.ortrun-dieterich.de/workshop.html>`_ .
 
 
 .. toctree::

@@ -156,7 +156,7 @@ des Radius nicht besonders sinnvoll ist.
 
     ergebnis = flaeche()
 
-Dadurch dass der Parameter 'radius' im Funktionskopf schon einen Wert hat,
+Dadurch dass der Parameter ``radius`` im Funktionskopf schon einen Wert hat,
 kann die Funktion jetzt mit oder ohne Argument aufgerufen werden.
 
 Benannte Parameter
@@ -180,5 +180,5 @@ Bei unserem Flächenbeispiel könnte der Aufruf dann so aussehen:
     ergebnis = flaeche(einheit="cm", radius=100)
 
 
-Die beiden Möglichkeiten der Zuordnung lassen sich auch kombinieren, dann
-müssen aber zuerst die Argumente Parameter verwendet werden, die über die Reihenfolge zugeordnet werden sollen.
+Die beiden Möglichkeiten der Zuordnung lassen sich auch kombinieren, dann müssen aber zuerst
+die Argumente Parameter verwendet werden, die über die Reihenfolge zugeordnet werden sollen.

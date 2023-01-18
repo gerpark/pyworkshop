@@ -9,7 +9,7 @@ Variablen gibt es wohl in den allermeisten Programmiersprachen,
 auch wenn sie sich im Detail häufig etwas unterscheiden.
 
 Die Idee einer **Variable** ist es, einem Wert / einer Sache, einen selbstgewählten Namen 
-zu geben. Der Inhalt (=Wert) der Variablen kann  im nach hinein geändert werden.
+zu geben. Der Inhalt (=Wert) der Variablen kann im Nachhinein geändert werden.
 Es gibt also einen Variablennamen, mit einem variablen Inhalt (=Wert), der über den
 sogenannten `Variablennamen` angesprochen wird.
 
@@ -22,7 +22,7 @@ sie wird zum einen definiert und bekommt zum anderen auch noch einen Wert zugewi
     >>> zahl=5
 
 Wir haben jetzt eine Variable mit dem Namen `zahl` und dem Inhalt `5`.
-Um den Inhalt der Variablen zu überprüfen, geben wir den Namen ein:
+Um den Inhalt der Variablen zu überprüfen, geben wir den Variablennamen ein:
 
 .. code:: python
 
@@ -53,7 +53,7 @@ wenn wir zu dem Wert dieser Variablen etwas hinzuzählen wollen schreiben wir:
 die Variable mit dem Namen `zahl` hat jetzt den Inhalt 25.
 
 Für den Namen einer Variablen gibt es bestimmte Regeln: er muss mit einem
-Buchstaben beginnen, dann folgen Buchstaben und Zahlen und eventuell als einzig
+Buchstaben beginnen, dann folgen Buchstaben und Ziffern und eventuell als einzig
 erlaubtes Sonderzeichen ein Unterstrich (_).
 Der erste Buchstabe ist vereinbarungsgemäß ein Kleinbuchstabe und zwischen 
 Groß- oder Kleinbuchstaben wird unterschieden (=case sensitive).
@@ -91,7 +91,7 @@ Bei unseren ersten Experimenten haben wir folgende *Datentypen* kennengelernt:
 * Ganze Zahlen
     *int*
     
-* Dezimal - oder Flieskommazahlen
+* Dezimal - oder Fließkommazahlen
     *float*
 
 * Strings

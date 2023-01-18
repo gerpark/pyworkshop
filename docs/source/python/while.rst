@@ -57,7 +57,7 @@ und dann die Taste `'c'` dazu gedrückt (das muss evtl. mehrfach wiederholt werd
 bekannt ist, wie oft die Schleife wiederholt werden soll.
 Dafür gibt es das Schlüsselwort **break**, mit dem die Schleife jederzeit
 beendet werden kann. Im Schleifenkopf darf die Bedingung dann `immer richtig` sein,
-dass kann mit dem Schlüsselwort `True` erreicht werden.
+dass kann mit dem Schlüsselwort **True** erreicht werden.
 
 Dazu auch ein Beispiel, in dem wir eine Einkaufsliste erstellen.
 Dieses Skript sollten wir uns merken (einkauf.py), weil wir das später noch
