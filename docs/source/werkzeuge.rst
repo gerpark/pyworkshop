@@ -1,7 +1,7 @@
 ﻿
 .. _tutorial-werkzeuge:
 
-.. index:: Python, Code, Editor, Code-Editor, IDE, IDLE
+.. index:: Python, Code, Editor, Code-Editor, IDE, IDLE, Thonny
 
 #########
 Werkzeuge
@@ -122,3 +122,36 @@ wird die Fehlermeldung ebenfalls in diesem Fenster ausgegeben.
 
 Nachdem die Datei einmal erstellt wurde, können wir den geänderten Programmcode mit der :kbd:`<F5>`-Taste
 in einem Rutsch speichern und das Programm starten.
+
+.. _thonny_ide:
+
+THONNY
+------
+
+Eine neue und gute Alternative zur :ref:`IDLE<idle>` ist die Entwicklungsumgebung (IDE) ``Thonny``.
+Die Oberfläche ist einfach und intuitiv zu bedienen und insgesamt
+aufgeräumter. Ein besonderer Vorteil ist der gut funktionierende Debugger.
+Die grundlegenden Abläufe beim Programmieren entsprechen dann dem was bei der IDLE 
+besprochen wurde.
+
+``Thonny`` basiert wie die ``IDLE`` auf der Grafikbibliothek Tk, ist aber
+erst ab der Python Version 3.8 verfügbar.
+
+Installieren
+^^^^^^^^^^^^
+
+`Thonny <https://thonny.org/>`_ kann zusammen mit Python installiert werden. Ich bevorzuge 
+aber Thonny zu einer bestehenden Python Installation hinzuzufügen.
+
+Hierfür muss die :ref:`Windows Kommandozeile <cmd-line>` (bzw. unter Mac-OS/Linux ein Terminal)
+geöffnet werden und von dort wird Thonny mit pip/(pip3) installiert:
+
+.. code-block:: text
+    
+    C:\USERS\OLA>pip install thonny
+
+danach kann thonny direkt von der Kommandozeile aus gestartet werden:
+
+.. code-block:: text
+    
+    C:\USERS\OLA>thonny
