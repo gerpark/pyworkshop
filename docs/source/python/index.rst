@@ -18,7 +18,7 @@ Python hat eine klare und gut verständliche Syntax, und ist
 als Einstiegssprache, behaupte nicht nur ich, sicherlich die erste Wahl.
 
 Mit Python kann prozedural oder auch objektorientiert programmiert werden.
-Allerdings ist die Sprache in sich, wie wir später sehen werden, komplett objektorientiert.
+Allerdings ist die Sprache in sich, wie wir noch sehen werden, komplett objektorientiert.
 
 .. Mit :numbered: würden die Unterabschnitte nummeriert.
 
