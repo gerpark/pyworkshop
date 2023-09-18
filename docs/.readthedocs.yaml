@@ -32,10 +32,8 @@ build:
 
 sphinx:
 
-  configuration: docs/source/conf.py
+  builder: html
 
-  # You can configure Sphinx to use a different builder, for instance use the dirhtml builder for simpler URLs
+  configuration: conf.py
 
-  # builder: "dirhtml"
-
-  # Fail on all warnin
+  fail_on_warning: true
