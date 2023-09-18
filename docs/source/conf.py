@@ -22,7 +22,7 @@ copyright = '2021, Gerhard Sachs'
 author = 'Gerhard Sachs'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+release = '2.0.8'
 
 
 # -- General configuration ---------------------------------------------------
@@ -55,7 +55,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 # html_theme = 'alabaster'
-# html_theme = 'classic'
+html_theme = 'classic'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
