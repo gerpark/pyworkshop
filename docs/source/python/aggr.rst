@@ -23,8 +23,7 @@ verwendet werden und liefert ein ``True`` oder ``False`` zurück, z.B:
 
 Der Datentyp wird bei den vier gebräuchlichsten Datentypen
 durch die Begrenzungszeichen beim Initialisieren festgelegt.
-Beim String sind es die Hochkommas, bei der Liste die
-'eckigen Klammern':
+Beim String sind es die Hochkommas, bei der Liste die ``eckigen Klammern``:
 
 .. code:: python
 
@@ -52,7 +51,21 @@ dem Dictionary über eine Liste der Schlüssel.
 Liste
 -----
 
-Die **Liste** haben wir schon :ref:`zuvor <liste>` besprochen, sie ist ein :ref:`veränderlicher Datentyp <py-mutable>`.
+Die :ref:`Liste <liste>` haben wir schon zuvor besprochen, sie ist ein :ref:`veränderlicher Datentyp <py-mutable>`.
+
+Wenn eine Liste aber veränderlich ist muß es auch möglich sein, ihr weitere Elemente zuzufügen.
+Dabei stoßen wir spätestens auf die Syntax, die bei der 
+:ref:`ObjektOrientierung<oop-usage1>` verwendet wird, den `'Punkt'`.
+
+Das passiert mit der Methode ``append()``, die am Ende einer bestehende Liste ein neues Element anfügt.
+
+.. code:: python
+
+    >>> liste = ["A", "B", "C"]
+    >>> liste.append("D")
+    >>> len(liste)
+    4
+
 
 String
 ------
@@ -61,14 +74,15 @@ Auch der String ist ein Sammel-Datentyp, so können wir einen String mit einer F
 in seine Teile zerlegen oder auf die einzelnen Zeichen über 'eckige Klammern' zugreifen.
 
 Zu Strings gibt es eine ganze Reihe von Methoden, zwei davon möchte ich kurz vorstellen:
-mit split() erhalte ich aus einem String eine Liste. Ohne Parameter werden alle
-'white spaces' (Leerzeichen,Tabularen, Zeilenende) entfernt und als Trennzeichen verwendet.
-split strip:
+mit ``split()`` erhalte ich aus einem String eine Liste. Ohne Parameter ist das Trennzeichen
+ein `Leerzeichen`, ansonsten kann das Trennzeichen im ersten Parameter mitgegeben werden.
+
+Die zweite Methode ist ``strip()`` und entfernt sogenannte `white spaces` (Leerzeichen,Tabularen, Zeilenende)
+am Anfang und Ende eines Strings.
 
 Wenn Text angezeigt oder in eine Datei geschrieben wird, soll die Ausgabe
 häufig etwas in Form gebracht werden. Das Sprachkonstrukt dafür sieht auf den ersten Blick etwas
-verwirrend aus, ich gehe **hier** genauer darauf ein.
-
+verwirrend aus, das Thema heißt :ref:`String-Formatierung <py-format>`.
 
 Eine weitere sehr praktische Technik möchte ich zusammen mit den Strings erwähnen, obwohl sie auch für die anderen `sequentielle Datentypen`
 gilt, das sogenannte `Slicing`. Hiermit können mit Hilfe einer einfachen Syntax Teilbereiche eines Strings

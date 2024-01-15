@@ -13,7 +13,7 @@ von Gerhard Sachs
 
 Dieses Dokument wird kontinuierlich weiterbearbeitet.
 
-Version 2.09 vom 20. September 2023
+Version 2.10 vom 15. Januar 2024
 
 Und hier noch ein Link mit etwas zu `Python, dem Workshop und meiner Person <http://www.ortrun-dieterich.de/workshop.html>`_ .
 
@@ -29,6 +29,7 @@ Und hier noch ein Link mit etwas zu `Python, dem Workshop und meiner Person <htt
     turtle/index.rst
     object/index.rst
     datum.rst
+    format.rst
     db.rst
     
 
