@@ -108,14 +108,14 @@ Im Kopfteil des Fensters steht noch „Untitled*“, da der Inhalt des Editorfen
 Nachdem ich meinen Programmtext  (Programm Code) eingegeben habe, speichere ich ihn in einer Datei ab.
 Dies geschieht wieder im Menü unter *File* und dann dem Unterpunkt *Save*. Dort wählen wir den eben erstellten Ordner
 aus und vergeben einen passenden Dateinamen, wie z.B. ``hello.py``.
-Der gewählte Dateiname und das Verzeichis werden danach in der Kopfzeile des Editorfensters angezeigt.
+Der gewählte Dateiname und das Verzeichnis werden danach in der Kopfzeile des Editorfensters angezeigt.
 
 .. figure:: pics/idle_03.png
     :align: left
     :figwidth: 100%
 
 Jetzt müssen wir unser Programm nur noch ausprobieren. Dazu öffne ich im Editor Fenster 
-Menu unter *Run* den Unterpunkt *Run Module*. 
+Menü unter *Run* den Unterpunkt *Run Module*. 
 Alle Ausgaben des Programms werden jetzt im Fenster mit der „Python Shell“ angezeigt, dort steht
 jetzt also "Hello World". Und sollte es einen Fehler gegeben haben,
 wird die Fehlermeldung ebenfalls in diesem Fenster ausgegeben.
@@ -128,21 +128,20 @@ in einem Rutsch speichern und das Programm starten.
 THONNY
 ------
 
-Eine neue und gute Alternative zur :ref:`IDLE<idle>` ist die Entwicklungsumgebung (IDE) ``Thonny``.
+Eine neue und gute Alternative zur :ref:`IDLE<idle>` ist die Entwicklungsumgebung (IDE) `Thonny`.
 Die Oberfläche ist einfach und intuitiv zu bedienen und insgesamt
 aufgeräumter. Ein besonderer Vorteil ist der gut funktionierende Debugger.
 Die grundlegenden Abläufe beim Programmieren entsprechen dann dem was bei der IDLE 
 besprochen wurde.
 
-``Thonny`` basiert wie die ``IDLE`` auf der Grafikbibliothek Tk, ist aber
+`Thonny` basiert wie die `IDLE` auf der Grafikbibliothek `Tk`, ist aber
 erst ab der Python Version 3.8 verfügbar.
 
 Installieren
 ^^^^^^^^^^^^
 
-`Thonny <https://thonny.org/>`_ kann zusammen mit Python installiert werden. Ich bevorzuge 
-aber Thonny zu einer bestehenden Python Installation hinzuzufügen.
-
+Die `Installation von Thonny <https://thonny.org/>`_  enthält auch die Python Software.
+Es ist aber auch möglich `Thonny` zu einer bestehenden Python Installation nachträglich hinzuzufügen.
 Hierfür muss die :ref:`Windows Kommandozeile <cmd-line>` (bzw. unter Mac-OS/Linux ein Terminal)
 geöffnet werden und von dort wird Thonny mit pip/(pip3) installiert:
 
@@ -150,7 +149,7 @@ geöffnet werden und von dort wird Thonny mit pip/(pip3) installiert:
     
     C:\USERS\OLA>pip install thonny
 
-danach kann thonny direkt von der Kommandozeile aus gestartet werden:
+danach kann ``thonny`` direkt von der Kommandozeile aus gestartet werden:
 
 .. code-block:: text
     

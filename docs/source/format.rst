@@ -56,9 +56,8 @@ Hier noch einige Beispiele:
 
     >>> out = "Ein {0:20s} Wort".format("langes")
 
-    >>> #  Links- und rechtsbündig mit < und >
+    #  Links- und rechtsbündig mit < und >
     >>> out = "Ein {0:>20s} Wort".format("langes")
-
     >>> out = "Zahlen 'sind {0:7d} rechtsbündig'"
 
 
@@ -66,7 +65,7 @@ Zu diesem Thema gäbe es noch sehr viel zu sagen, aber entscheidenden Dinge sind
 angesprochen, einfach ausprobieren!
 
 Unter `diesem Link <https://www.python-kurs.eu/python3_formatierte_ausgabe.php>`_,
-gibt es viel Information zu diesem Thema, eher zu viel (z.B. die %-Syntax aus Python3 Zeiten),
+gibt es viel Information zu diesem Thema, eher zu viel (z.B. die %-Syntax aus Python2 Zeiten),
 der wichtige Abschnitt für uns heißt "Der pythonische Weg: Die String-Methode" .
 
 Noch mehr 'schwere Kost' auf Englisch bietet die Python-Hilfe:
