@@ -22,7 +22,7 @@ copyright = '2021, Gerhard Sachs'
 author = 'Gerhard Sachs'
 
 # The full version, including alpha/beta/rc tags
-release = '2.0.8'
+release = '2.5.0'
 
 
 # -- General configuration ---------------------------------------------------

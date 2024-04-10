@@ -13,7 +13,7 @@ von Gerhard Sachs
 
 Dieses Dokument wird kontinuierlich weiterbearbeitet.
 
-Version 2.50 vom 7. April 2024
+Version 2.51 vom 9. April 2024
 
 Und hier noch ein Link mit etwas zu `Python, dem Workshop und meiner Person <http://www.ortrun-dieterich.de/workshop.html>`_ .
 
