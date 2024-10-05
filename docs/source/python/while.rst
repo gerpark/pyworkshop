@@ -1,7 +1,7 @@
 
 .. _while:
 
-.. index:: while, Schleife, True
+.. index:: while, break, schleife, True, Endlosschleife
 
 ##################
 Die while Schleife 
@@ -59,9 +59,7 @@ Dafür gibt es das Schlüsselwort **break**, mit dem die Schleife jederzeit
 beendet werden kann. Im Schleifenkopf darf die Bedingung dann `immer richtig` sein,
 dass kann mit dem Schlüsselwort **True** erreicht werden.
 
-Dazu auch ein Beispiel, in dem wir eine Einkaufsliste erstellen.
-Dieses Skript sollten wir uns merken (einkauf.py), weil wir das später noch
-erweitern wollen.
+Dazu ein Beispiel, in dem wir eine Einkaufsliste erstellen.
 
 .. code:: python
 
@@ -69,7 +67,7 @@ erweitern wollen.
     print("Einkauf mit 'ende' beenden")
 
     while True:
-        was = input("Was brauche ich noch? ")
+        was = input("Was brauche ich noch?")
 
         # ==> die Schleife wird beendet
         if was == "ende":
