@@ -15,7 +15,7 @@ denn - ist es ein Wunder - die Programmiersprache Python kann auch rechnen !
     >>> 5+7
     12
 
-Wie könnte es heißen, wenn wir "1,2 * 3" rechnen wollen:
+Wie könnte es heißen, wenn wir '1,2' mal drei rechnen wollen:
 
 .. code:: python
 
@@ -33,7 +33,7 @@ Dezimalzahlen, die auch als Fließkommazahlen bezeichnet werden,
 sind in Programmiersprachen immer ungenau. Das Ergebnis schöner aussehen
 zu lassen, ist nicht schwer, wie wir schon bald sehen werden.
 
-Aber jetzt geben wir mal was anderes ein:
+Aber jetzt geben wir mal etwas anderes ein:
 
 .. code:: python
 
@@ -44,7 +44,7 @@ Aber jetzt geben wir mal was anderes ein:
         NameError: name 'hallo' is not defined
 
 Dies führt zu einer Fehlermeldung, das ist nicht weiter schlimm,
-es ist nur eine Erklärung, was schief gelaufen ist.
+es ist nur die Erklärung, was schief gelaufen ist.
 Das wichtigste steht unten, nämlich dass der Name `hallo`
 nicht definiert ist.
 
@@ -56,7 +56,7 @@ Text in Hochkommas eingeschlossen werden:
     >>> "hallo"
     hallo
 
-Was wohl dabei rauskommt?
+Was wohl hierbei herauskommt?
 
 .. code:: python
 
@@ -74,5 +74,5 @@ oho - und hierbei:
 Diese Fehlermeldung deutet auf das Thema `Datentypen` hin, und besagt,
 dass hier ein falscher Datentyp verwendet wurde.
 "hallo" ist eine Zeichenkette, ein `String`  (=str) und hierzu könnte
-könnte ein weiterer String, aber keine `ganze Zahl` (=int) addiert werden.
-Wie müsste es heißen ?
+ein weiterer String, aber keine `ganze Zahl` (=int) addiert werden.
+Wie könnte es heißen ?
