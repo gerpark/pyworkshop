@@ -12,12 +12,12 @@ So könnten z.B. Preise so ausgeben werden, dass sie ordentlich untereinander st
 Innerhalb des **Formatierungsstrings** werden die `geschweiften Klammern` durch die
 entsprechenden Variableninhalte ersetzt und gegebenenfalls auch formatiert.
 
-Dazu gibt es eine ausführlichere Variante, die aber noch ein Kurzform hat, die beiden
-Formen funktionieren aber nach dem selben Prinzip. In der Kurzform wird ein 'f' vor den String gestellt.
+Dazu gibt es eine ausführlichere Variante, zu der es aber auch eine Kurzform gibt.
+Beide Formen funktionieren aber nach dem selben Prinzip. In der Kurzform wird ein 'f' vor den String gestellt.
 
 Im Beispiel mit der String-Methode format() steht die '0' innerhalb der geschweiften Klammern für das erste Argument.
 Die Methode selbst kann, so wo wie wir das von ``print()`` kennen, beliebig viele Argumente enthalten.
-In der Kurzform werden die Variablen direkt in den geschweiften Klammern verwendet.
+In der Kurzform werden die Variablen direkt innerhalb der geschweiften Klammern verwendet.
 
 .. code:: python
 
