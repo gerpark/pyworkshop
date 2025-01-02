@@ -17,12 +17,11 @@ Jede Computersprache kennt etwas in dieser Art, wie immer, mit unterschiedlichen
 und Ausprägungen (array, vector, ...).
 
 In Python ist hierfür die **Liste** der prominenteste Vertreter, aber es gibt 
-noch noch viele andere `zusammengesetzte Datentypen` wie Tuple, Dictionary,  ...  und was kennen wir schon?
+noch viele andere `zusammengesetzte Datentypen` wie Tuple, Dictionary,  ...  und was kennen wir schon?
 
-Eine Liste besteht aus mehreren Elementen, ähnlich wie eine
-Fahrradkette aus einzelnen Kettengliedern, oder eine Perlenkette aus
-aneinander gereihten Perlen besteht. Allerdings hat eine Liste einen festen Anfang
-und die Elemente eine feste Reihenfolge.
+Eine Liste besteht aus mehreren Elementen, ähnlich wie eine Fahrradkette aus
+einzelnen Kettengliedern, oder eine Perlenkette aus aneinander gereihten Perlen besteht.
+Allerdings hat eine Liste einen festen Anfang und die Elemente eine feste Reihenfolge.
 
 Eine Liste wird mit eckigen Klammern erstellt (=initialisiert), die einzelnen Werte werden durch Kommas getrennt:
 
@@ -72,5 +71,5 @@ Wir können auch den Wert/Inhalt der einzelnen Elemente ändern:
         idx = idx + 1
 
 
-Die Variable `vorname` verwende ich nur der Übersichtlichkeit halber, stattdessen hätten
+Die Variable `vorname` verwende ich hier nur der Übersichtlichkeit halber, stattdessen hätten
 wir auch direkt ``print("Hi", namen[idx])`` schreiben können.
