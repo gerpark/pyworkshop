@@ -30,7 +30,7 @@ schreibe ich:
 
     >>> from datetime import date, timedelta
 
-Jetzt möchte ich vielleicht wissen, was das aktuelle Datum ist:
+Jetzt möchte ich wissen, was das aktuelle Datum ist:
 
 .. code:: python
 
