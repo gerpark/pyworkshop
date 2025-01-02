@@ -26,8 +26,7 @@ vieles auf Deutsch und noch viel mehr auf Englisch.
 
   * (`Django <https://de.wikipedia.org/wiki/Django_(Framework)>`_ heißt eine Software mit der ein anspruchsvoller Internetauftritt erstellt werden kann)
 
+* | Interessant (vielleicht nicht immer so ganz richtig) sind die `folgenden Kursunterlagen <https://www.python-lernen.de>`_,
+  | in denen verschiedene Anwendungsbereiche kurz behandelt werden.
 * | Zuletzt vielleicht das Beste - mit viel Informationen und Tutorials, ausführlich
   | und mit vielen vertiefende Themen: der `Python Kurs von Bernd Klein <https://www.python-kurs.eu>`_.
-
-
-https://www.python-forum.de/
