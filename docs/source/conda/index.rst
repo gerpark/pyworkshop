@@ -25,14 +25,14 @@ im Abschnitt 'Virtuelle Umgebung' beschrieben ist.
     Ich bevorzuge das Module ``venv``, so wie es bei den `Django Girls <https://tutorial.djangogirls.org/de/installation//#virtualenv>`_ beschrieben ist.
     im Abschnitt 'Virtuelle Umgebung'    (falls das # in der Url nicht tut)
 
-In der Regel werden Virtuelle Umgebungen nicht systemweit sondern im Bereich des jeweiligen Benutzers erstellt.
+In der Regel werden Virtuelle Umgebungen nicht systemweit, sondern im Bereich des jeweiligen Benutzers erstellt.
 Jede virtuelle Umgebung erhält ein eigenes Verzeichnis, in dem die jeweilige Software abgelegt wird.
-In welcher Umgebung dann jeweils gearbeitet werden soll, geschieht dann durch einen
+In welcher Umgebung jeweils gearbeitet werden soll, geschieht dann durch einen
 einen Befehl, so dass der Arbeitsbereich jederzeit leicht gewechselt werden kann.
 
 Im Wissenschaftlichen Umfeld ist die Python-Distribution Anaconda weit verbreitet.
 Die Hauptaufgabe von Anaconda ist das reibungslose Zusammenspiel von 
-der für diesen Bereich wichtigen Python-Paketen und dem Verwalten von Virtuelle Umgebungen.
+der für diesen Bereich wichtigen Python-Paketen und dem Verwalten der Virtuellen Umgebungen.
 
 .. _anac_ide:
 
@@ -48,7 +48,7 @@ Der eigentliche Kern von Anaconda ist aber ein Paketmanagement System, d.h. die 
 Arbeitsumgebungen (= virtual Environments) zu erstellen, zu ändern usw.
 
 Solche Werkzeuge für virtuellen Umgebungen werden auch von der Python-Standard-Bibliothek angeboten.
-Anaconda kann aber mit seinem conda-Tool Abhängigkeiten von verschiedenen Paket-Versionen untereinander besser berücksichtigen.
+Anaconda kann aber mit seinem conda-Tool die Abhängigkeiten von verschiedenen Paket-Versionen untereinander besser berücksichtigen.
 
 Dazu bietet Anaconda eigene Repositories an, enthält aber auch das 
 Kommandozeilen-Programm ``pip`` und kann damit auf des Repository 
