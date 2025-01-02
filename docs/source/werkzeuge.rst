@@ -93,7 +93,7 @@ Programmieren
 Bevor wir mit dem Programmieren anfangen können, müssen wir unter `MS-Windows`
 ein **eigenes Verzeichnis** für unsere Programme erstellen. Das kann irgendwo sein, aber nicht
 im Verzeichnisbaum der eigentlichen Python-Software. 
-Ein Ordner mit dem Namen `python` unterhalb von `Dokumenten` wäre eine gute Möglichkeit.
+Ein Ordner mit dem Namen `python` unterhalb von `Dokumenten` ist eine gute Möglichkeit.
 
 
 Um ein Programm zu erstellen brauchen wir als erstes einen :ref:`Editor<code-editor>`.
