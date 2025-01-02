@@ -97,8 +97,8 @@ in diesem Beispiel also die Funktionen `sqrt` und `sin`.
     >>> sqrt(16)
 
 
-Hier möchte ich nochmal auf die `Hilfe` hinweisen, denn der Inhalt eines Moduls kann erst verwendet
-werden, wenn das Modul (in welcher Variante auch immer) zuvor importiert wurde.
+Hier noch ein Hinweis zur `Hilfe`, die Funktion help() funktioniert nur für Dinge,
+die zuvor importiert wurden.
 
 .. code:: python
 
