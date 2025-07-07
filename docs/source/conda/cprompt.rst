@@ -20,11 +20,11 @@ und der Prompt sieht unter MS-Windows dann in etwa so aus:
     (base) C:\USERS\OLA>
 
 Der Anaconda-Prompt ist nichts anderes als das ``cmd.exe`` mit einigen
-Voreinstellungen, so dass hier alles gemacht werden kann,
-was auch sonst möglich wäre.
+Voreinstellungen, so dass hier alles möglich ist, was auch sonst
+auf der Windows-Kommando Zeile verfügbar ist.
 
 Unter MacOS oder Linux rufe ich ein Terminal auf. Entweder der Prompt
-zeigt am Anfang die Arbeitsumgebung, oder sie kann folgendermaßen 
+zeigt schon am Anfang die Arbeitsumgebung, oder sie kann folgendermaßen 
 aktiviert werden:
 
 .. code-block:: text
