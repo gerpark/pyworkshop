@@ -44,6 +44,9 @@ oder der Name einer `Variablen` sein. Als Ergebnis erhalten wir eine Information
     >>> type(12.46)
         <class 'float'>
 
+
+.. _fun1-convert:
+
 Datentyp und ``class`` sind dasselbe, und der Name des Datentyps ist gleichzeitig der Name der
 **Umwandlungsfunktion** zu dem jeweiligen Datentyp.
 
