@@ -166,7 +166,7 @@ Die Zuordnung zwischen Aufruf und Definition in der Funktion
 wurde bisher durch die Reihenfolge der Parameter bestimmt.
 
 Stattdessen kann die Zuordnung aber auch so geschehen, dass beim Aufruf der
-Funktion einfach die Namen der Parameter benutzt werden.
+Funktion einfach die **Namen der Parameter** benutzt werden.
 Das hat zudem den Vorteil, dass das Programm leichter zu lesen ist.
 
 Bei unserem Flächenbeispiel könnte der Aufruf dann so aussehen:
@@ -181,4 +181,4 @@ Bei unserem Flächenbeispiel könnte der Aufruf dann so aussehen:
 
 
 Die beiden Möglichkeiten der Zuordnung lassen sich auch kombinieren, dann müssen aber zuerst
-die Argumente Parameter verwendet werden, die über die Reihenfolge zugeordnet werden sollen.
+die Argumente verwendet werden, die über die Reihenfolge zugeordnet werden sollen.
