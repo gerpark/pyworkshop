@@ -27,12 +27,12 @@ im Abschnitt 'Virtuelle Umgebung' beschrieben ist.
 
 In der Regel werden Virtuelle Umgebungen nicht systemweit, sondern im Bereich des jeweiligen Benutzers erstellt.
 Jede virtuelle Umgebung erhält ein eigenes Verzeichnis, in dem die jeweilige Software abgelegt wird.
-In welcher Umgebung jeweils gearbeitet werden soll, geschieht dann durch einen
-einen Befehl, so dass der Arbeitsbereich jederzeit leicht gewechselt werden kann.
+Der Wechsel von einer in die andere Umgebung geschieht durch einen einfachen
+Befehl, so dass der aktuelle Arbeitsbereich leicht geändert werden kann.
 
 Im Wissenschaftlichen Umfeld ist die Python-Distribution Anaconda weit verbreitet.
-Die Hauptaufgabe von Anaconda ist das reibungslose Zusammenspiel von 
-der für diesen Bereich wichtigen Python-Paketen und dem Verwalten der Virtuellen Umgebungen.
+Die Hauptaufgabe von Anaconda ist das reibungslose Zusammenspiel von den für
+diesen Bereich wichtigen Python-Paketen und dem Verwalten der Virtuellen Umgebungen.
 
 .. _anac_ide:
 
