@@ -54,14 +54,14 @@ sich darauf, dass es eine Variable ``aussen`` gibt. Gibt es aber keine Variable 
 stürzt das Programm mit einem Laufzeitfehler ab. Stattdessen hätte problemlos
 ein Parameter verwendet werden können.
 
-Ausserdem können Variablennamen leicht überschrieben werden, was leicht zu :ref:`Fehlern <py-vorsicht>` führen kann.
+Ausserdem können Variablennamen versehentlich überschrieben werden, was möglicherweise zu schweren :ref:`Fehlern <py-vorsicht>` führen kann.
 
 Auch hier lässt uns also Python große Freiheiten, aber im Sinne von einem
 sicheren, gut verständlichen und gut wartbaren Programmcode sollten `globale Variablen`
 nur sehr sparsam und wohlüberlegt verwendet werden.
 
 Manchmal werden `globale Variablen` benutzt, wenn ein bestimmter Wert
-an sehr vielen Stellen benötigt wird, aber immer gleich bleibt.
+an sehr vielen Stellen benötigt wird, aber immer gleich bleiben soll.
 So etwas wird als **Konstante** bezeichnet und häufig, ungeachtet der allgemeinen
 Regeln, komplett großgeschrieben.
 
@@ -70,10 +70,10 @@ Regeln, komplett großgeschrieben.
     def foo(): 
         distance = 9 * UNIT
 
-    # Eine globale Variable
+    # Eine Konstante
     UNIT = 20
     foo()
 
 
 Ein weiterführendes Thema, sind dann `Namensräume`, d.h. der lokale 
-und der globale Namensraum, die aber hier nicht besprochen werden sollen.
+und der globale Namensraum, die aber hier nicht besprochen werden.
