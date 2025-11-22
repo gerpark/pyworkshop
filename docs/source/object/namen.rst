@@ -43,13 +43,13 @@ denn für die Turtle gibt es keinen Namen mehr.
 Am Bildschirm wird die Turtle zwar noch angezeigt, kann aber nicht angesprochen
 und damit auch nicht mehr verwendet werden, - nur noch ein Schatten ihrer selbst!
 
-
-Außerdem sind in Python alle Namen gleichwertig, d.h. dass z.B. auch ein
-Funktionsname auf diese Weise unbrauchbar gemacht werden kann.
+Außerdem sind in Python alle Namen gleichwertig und damit ungeschützt.
+So kann z.B. wie eben gezeigt, eine unglückliche Wahl für einen Variablennamen
+zu Folgeproblemen führen, die dann nur schwer zu finden sind.
 Handelt es sich bei dem Namen um eine lokale Variable, ist die Auswirkung nur begrenzt,
 aber bei :ref:`global gültigen Namen<py-noglobal>` ist wirklich **Vorsicht** geboten.
 
-Ein weiterer Grund möglichst wenig oder keine **globalen Variablen** zu verwenden!
+Ein weiterer und wichtiger Grund möglichst wenig **globalen Variablen** zu verwenden!
 
 
 .. _py-mutable2:
@@ -113,10 +113,10 @@ Kernsätze
 
 *	Variablen sind einfach nur Namen, die auf ein Objekt zeigen. 
 
-*   die Lebensdauer eines Objekts ist so lange, wie es dafür einen gültigen Namen gibt.
+*   Die Lebensdauer eines Objekts ist so lange, wie es dafür einen gültigen Namen gibt.
 
-*	'veränderliche Objekte' werden bei einer Zuweisung nicht kopiert, sondern bekommen einen weiteren Namen.
+*	Veränderliche Objekte werden bei einer Zuweisung nicht kopiert, sondern bekommen einen weiteren Namen.
 
-*   Hat ein Objekt keinen Namen mehr, wird es aus dem Speicher entfernt (=Garbage Collection) 
+*   Hat ein Objekt keinen Namen mehr, wird es aus dem Speicher entfernt (=Garbage Collection).
 
 
