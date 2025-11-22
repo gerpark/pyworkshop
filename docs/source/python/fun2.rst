@@ -32,7 +32,7 @@ Eine neue/eigene Funktionen muss zuerst `definiert` werden,
 damit wird sozusagen ihr Bauplan erstellt. Der Name der Funktion beginnt mit einem Kleinbuchstaben und auch sonst
 gelten dieselben Regeln, wie für die Namen von Variablen.
 
-Der Funktionskopf beginnt mit dem Schlüsselwort **def** und endet mit Doppelpunkt.
+Der Funktionskopf beginnt mit dem Schlüsselwort **def** und endet mit einem Doppelpunkt.
 Die darauf folgenden Anweisungen sind alle eingerückt (wie immer nach einem
 Doppelpunkt) und bilden den Funktionskörper.
 
