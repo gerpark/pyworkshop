@@ -13,11 +13,11 @@ Innerhalb des **Formatierungsstrings** werden die `geschweiften Klammern` durch 
 entsprechenden Variableninhalte ersetzt und gegebenenfalls auch formatiert.
 
 Dazu gibt es eine ausführlichere Variante, zu der es aber auch eine Kurzform gibt.
-Beide Formen funktionieren aber nach dem selben Prinzip. In der Kurzform wird ein 'f' vor den String gestellt.
+Beide Formen funktionieren aber nach demselben Prinzip. In der **Kurzform** wird ein `f` vor den String gestellt.
 
 Im Beispiel mit der String-Methode format() steht die '0' innerhalb der geschweiften Klammern für das erste Argument.
-Die Methode selbst kann, so wo wie wir das von ``print()`` kennen, beliebig viele Argumente enthalten.
-In der Kurzform werden die Variablen direkt innerhalb der geschweiften Klammern verwendet.
+Die Methode selbst kann, so wo wie wir es von ``print()`` kennen, beliebig viele Argumente enthalten.
+In der Kurzform können die Variablen direkt innerhalb der geschweiften Klammern verwendet werden.
 
 .. code:: python
 
@@ -34,17 +34,17 @@ Hiermit haben wir aber noch nicht viel erreicht.
 Der eigentliche Trick sind die Formatierungshinweise,
 die in den geschweiften Klammern auf den Doppelpunkt folgen.
 
-Im diesem Beispiel bedeutet der Formatierungshinweis ``5.1f`` folgendes:
+Im folgenden Beispiel bedeutet der Formatierungshinweis ``5.1f``:
 
     * f --->  eine Fließkommazahl soll formatiert werden.
 
     * 5 --->  die Ausgabe soll 5 Zeichen lang sein.
 
-    * 1 --->  die 1 in '5.1' bedeutet eine Nachkommastelle.
+    * 2 --->  die 2 in '5.2' bedeutet zwei Nachkommastellen.
 
 .. code:: python
 
-   >>> out = "{0} mit einer {0:5.1f} Nachkommastelle".format(4.6666)
+   >>> out = "{0} mit einer {0:5.2f} Nachkommastelle".format(4.6666)
    >>> print(out)
 
 
@@ -61,7 +61,7 @@ Hier noch einige Beispiele:
     >>> out = "Zahlen 'sind {0:7d} rechtsbündig'"
 
 
-Zu diesem Thema gäbe es noch sehr viel zu sagen, aber entscheidenden Dinge sind schon mal
+Zu diesem Thema gäbe es noch sehr viel zu sagen, aber entscheidende Dinge sind schon mal
 angesprochen, einfach ausprobieren!
 
 Unter `diesem Link <https://www.python-kurs.eu/python3_formatierte_ausgabe.php>`_,
@@ -76,8 +76,7 @@ Noch mehr 'schwere Kost' auf Englisch bietet die Python-Hilfe:
 
 Zur Ausgabe mit ``print()`` oder auch bei der Ausgabe in eine Datei gibt es noch
 wichtige Sonderzeichen, die mit einem Backslash (\\) beginnen.
-Vor allem ist das das Zeichen für den Zeilenumbruch (\\n), aber auch 
-für den Tabulator (\\t).
+Dies sind vor allem die Zeichen für den Zeilenumbruch (\\n) und für den Tabulator (\\t).
 
 .. code:: python
 

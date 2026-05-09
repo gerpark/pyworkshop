@@ -85,13 +85,13 @@ Es gibt einen Fehler, denn die Instanzvariable ``self.futter`` wurde noch nicht 
 der entsprechende Programmcode wurde noch nicht durchlaufen.
 
 Dass läßt sich aber leicht vermeiden, denn wie bei allen objektorientierten Sprachen,
-gibt es die Möglichkeit ein Objekt zu initialisieren.
-Ein solche Methode wird (in allen OO-Sprachen) als **Konstruktor** bezeichnet.
+gibt es die Möglichkeit ein Objekt zu initialisieren. Ein solche Methode
+wird (in allen Objekt-orientierten-Sprachen) als **Konstruktor** bezeichnet.
 
 Wenn also in einer Klasse eine Methode mit dem dem festgelegten Namen ``__init__(...)`` 
-definiert wurde (zwei Unterstriche), dann wird diese Methode einmal
+definiert wurde (jeweils zwei Unterstriche), dann wird diese Methode einmal
 beim Erstellen eines jeden Objekts ausgeführt.
-Das ist der richtige Ort, um die Instanzvariablen zu initialisieren.
+Das ist der richtige Ort, um den Instanzvariablen einen Anfangswert zu geben, sie also zu initialisieren.
 Ich würde also grundsätzlich empfehlen, alle Instanzvariablen schon im Konstruktor anzulegen.
 
 .. code:: python
